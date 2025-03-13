@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) => {
   const [formValue, setFormValue] = useState({
-    fullname: currentUser.fullname, email: currentUser.email, address: currentUser.address, number: currentUser.number, chooseDelivery: "", promoCode: ''
+    fullname: currentUser.fullname, email: currentUser.email, dirección: currentUser.address, number: currentUser.number, chooseDelivery: "", promoCode: ''
   });
   const [submit, setSubmit] = useState(false);
   const [promoCode, setPromoCode] = useState(false);
@@ -37,19 +37,19 @@ const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) =>
   const validateForm = (value) => {
     let errors = {}
     if (!value.chooseDelivery) {
-      errors.chooseDelivery = "Please choose a delivery type"
+      errors.chooseDelivery = "Por favor seleccione un tipo de entrega"
     }
     if (!value.promoCode && promoCode) {
-      errors.promoCode = "Please indicate your promo code"
+      errors.promoCode = "Por favor indique su código promocional"
     }
     if (value.promoCode && value.promoCode.length < 5 && promoCode) {
-      errors.promoCode = "Invalid promo code!"
+      errors.promoCode = "Código promocional no válido!"
     }
     if (currentUser.address === null && value.chooseDelivery === "delivery") {
-      errors.address = "Please add your address"
+      errors.address = "Por favor agregue su dirección"
     }
     if (currentUser.number === null) {
-      errors.number = "Please add your number"
+      errors.number = "Por favor agregue su número"
     }
 
 
@@ -58,24 +58,24 @@ const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) =>
 
   return (
     <section className="checkout__form">
-      <h3>Personal information <span><Link onClick={ResetLocation} to="/profile">Edit profile</Link></span></h3>
+      <h3>Información personal <span><Link onClick={ResetLocation} to="/profile">Editar perfil</Link></span></h3>
       <section>
         <p>{currentUser.fullname}</p>
         <p>{currentUser.email}</p>
         {currentUser.address !== null ?
-          <p>Address: {currentUser.address}</p> :
-          <p className="checkout__form__address">You haven't added address yet<span><Link onClick={ResetLocation} to="/profile">Add address</Link></span></p>}
+          <p>Dirección: {currentUser.address}</p> :
+          <p className="checkout__form__address">Aún no has añadido la dirección<span><Link onClick={ResetLocation} to="/profile">Agregar dirección</Link></span></p>}
         <span className="checkout__form__error">{formError.address}</span>
         {currentUser.number !== null ?
-          <p>Contact number: {currentUser.number}</p> :
-          <p className="checkout__form__number">Please add you contact number<span><Link onClick={ResetLocation} to="/profile">Add number</Link></span></p>}
+          <p>Número de Contacto: {currentUser.number}</p> :
+          <p className="checkout__form__number">Por favor agregue su número de contacto<span><Link onClick={ResetLocation} to="/profile">Añadir número</Link></span></p>}
         <span className="checkout__form__error">{formError.number}</span>
       </section>
       <form onSubmit={handleSubmit}>
-        <h3>Delivery details</h3>
+        <h3>Detalles de entrega</h3>
         <label htmlFor="takeaway" className="checkout__form__takeaway" name="chooseDelivery">
           <RiShoppingBagLine />
-          Takeaway
+          Llevar
           <input
             type="radio"
             placeholder="Address"
@@ -86,7 +86,7 @@ const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) =>
         </label>
         <label htmlFor="delivery" className="checkout__form__delivery" name="chooseDelivery">
           <FaShippingFast />
-          Delivery
+          Entrega
           <input
             type="radio"
             placeholder="Address"
@@ -97,9 +97,9 @@ const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) =>
         </label>
         <span className="checkout__form__error">{formError.chooseDelivery}</span>
         <section className="checkout__form-promo-code">
-          {promoCode === false ? <p onClick={togglePromocode}>I have a promo code!</p> : (
+          {promoCode === false ? <p onClick={togglePromocode}>Tengo un código promocional!</p> : (
             <React.Fragment>
-              <p onClick={togglePromocode}>No promo code</p>
+              <p onClick={togglePromocode}>Sin código de promoción</p>
               <input
                 name="promoCode"
                 className=" pop-font"
@@ -115,11 +115,11 @@ const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) =>
         {productsQuantity > 0 &&
           <section className="checkout__totals">
             <section className="checkout__totals__content">
-              <h4>Tax 10%:</h4>
+              <h4>Impuesto 10%:</h4>
               <p>$ {taxes}</p>
             </section>
             <section className="checkout__totals__content">
-              <h4>Quantity:</h4>
+              <h4>Cantidad:</h4>
               <p> {productsQuantity}</p>
             </section>
             <section className="checkout__totals__content" >
@@ -128,7 +128,7 @@ const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) =>
             </section>
           </section>}
         <button type="submit" className="active-button-style">
-          Proceed to payment
+        Proceder al pago
         </button>
       </form>
     </section>

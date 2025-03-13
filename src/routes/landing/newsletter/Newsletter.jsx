@@ -21,17 +21,17 @@ const Newsletter = () => {
 
     <section className="homepage__newsletter">
         <h3 className="newsletter__title">
-          Subscribe to our newsletter to receive updates about the menu and enjoy awesome gifts!
+        Suscríbete a nuestro boletín para recibir actualizaciones sobre el menú y disfrutar de increíbles regalos!
         </h3>
       {submit && Object.keys(formError).length === 0 ?
-        <p className="newsletter__success">You have successfully subscribed to our newsletter!</p> :
+        <p className="newsletter__success">Te has suscrito con éxito a nuestra newsletter!</p> :
           <form onSubmit={handleSubmit} className="newsletter__form">
             <div className="webflow-style-input">
               <input name="email" onChange={handleValidation} value={formValue.email} placeholder="What's your email?" />
             </div>
             <span className="newsletter__error">{formError.email}</span>
             <button type="submit" className="active-button-style">
-              Sign me up
+            Regístrate
             </button>
           </form>
       }

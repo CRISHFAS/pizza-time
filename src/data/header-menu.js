@@ -1,7 +1,7 @@
 const headerMenu = [
   {
     to: "/",
-    label: "Home",
+    label: "Hogar",
   },
   {
     to: "/menu",
@@ -13,11 +13,11 @@ const headerMenu = [
   },
   {
     to: "/about",
-    label: "About",
+    label: "Acerca de",
   },
   {
     to: "/contact",
-    label: "Contact",
+    label: "Contacto",
   },
 ];
 

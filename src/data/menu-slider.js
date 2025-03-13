@@ -36,9 +36,9 @@ const menuSliderCategories = [
 const menuSliderProducts = [
   {
     id: "pepperoni-pizza",
-    name: "Pepperoni Pizza",
+    name: "Pizza de peperoni",
     describtion:
-      "Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.",
+      "Masa de pizza: levadura, pepperoni, pasta de tomate, queso mozzarella, azúcar.",
     price: (5).toFixed(2),
     img375: pizzaOne375,
     img700: pizzaOne700,
@@ -46,9 +46,9 @@ const menuSliderProducts = [
   },
   {
     id: "bbq-chicken-pizza",
-    name: "BBQ Chicken Pizza",
+    name: "Pizza de pollo a la barbacoa",
     describtion:
-      "Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.",
+      "Pollo rostizado, masa de pizza, salsa barbacoa, queso cheddar ahumado, queso mozzarella.",
     price: (10).toFixed(2),
     img375: pizzaTwo375,
     img700: pizzaTwo700,
@@ -56,8 +56,8 @@ const menuSliderProducts = [
   },
   {
     id: "cheese-pizza",
-    name: "Cheese Pizza",
-    describtion: "Pizza dough, pizza sauce, provolone cheese, mozzarella.",
+    name: "pizza de queso",
+    describtion: "Masa de pizza, salsa de pizza, queso provolone, mozzarella.",
     price: (5).toFixed(2),
     img375: pizzaThree375,
     img700: pizzaThree700,
@@ -67,9 +67,9 @@ const menuSliderProducts = [
     id: "salmon-poke",
     img375: SalmonPoke375,
     img700: SalmonPoke700,
-    name: "Salmon Poke",
+    name: "Poke De Salmón",
     describtion:
-      "Salmon, Avocado, Rice, Cabbage, Carrots, Creen onions, Sesame.",
+      "Salmón, aguacate, arroz, repollo, zanahorias, cebollas verdes, sésamo.",
     price: (10).toFixed(2),
     category: "sushi",
   },
@@ -78,8 +78,8 @@ const menuSliderProducts = [
     id: "veggie-poke",
     img375: VeggiePoke375,
     img700: VeggiePoke700,
-    name: "Veggie Poke",
-    describtion: "Rice, Avocado, Cabage, Carrot, Ginger, Green Onion, Sesam.",
+    name: "Poke vegetariano",
+    describtion: "Arroz, aguacate, repollo, zanahoria, jengibre, cebolla verde, sésamo.",
     price: (8).toFixed(2),
     category: "sushi",
   },
@@ -87,9 +87,9 @@ const menuSliderProducts = [
     id: "mini-salmon-set-22-pcs",
     img375: MiniSalmon375,
     img700: MiniSalmon700,
-    name: "Mini Salmon Set",
+    name: "Set Mini Salmón",
     describtion:
-      "Double Salmon Roll,Californication, Salmon Nigiri - 2Pcs, Eel Nigiri - 2Pcs,Vulcan Gunkan - 2Pcs",
+      "Rollo doble de salmón, Californication, Nigiri de salmón (2 piezas), Nigiri de anguila (2 piezas), Vulcan Gunkan (2 piezas)",
     price: (35).toFixed(2),
     category: "sushi",
   },
@@ -97,9 +97,9 @@ const menuSliderProducts = [
     id: "chicken-alfredo",
     img375: ChickenAlfredo375,
     img700: ChickenAlfredo700,
-    name: "Chicken Alfredo",
+    name: "Pollo AnaMar",
     describtion:
-      "Skinless chicken breast, heavy cream, olive oil, parmigiano reggiano, black pepper.",
+      "Pechuga de pollo sin piel, crema espesa, aceite de oliva, parmigiano reggiano, pimienta negra.",
     price: (2).toFixed(2),
     category: "pasta",
   },
@@ -109,7 +109,7 @@ const menuSliderProducts = [
     img700: AllaGricia700,
     name: "Pasta Alla Gricia",
     describtion:
-      "Rigatoni pasta, pancetta, olive oil, pecorino romano, black pepper.",
+      "Pasta rigatoni, panceta, aceite de oliva, pecorino romano, pimienta negra.",
     price: (9).toFixed(2),
     category: "pasta",
   },
@@ -119,7 +119,7 @@ const menuSliderProducts = [
     img700: SheetPan700,
     name: "Burrata Caprese Gnocchi",
     describtion:
-      "Penne pasta, sour cream, rotisserie chicken, cherry tomatoes, curly kale.",
+      "Pasta penne, crema agria, pollo rostizado, tomates cherry, col rizada.",
     price: (5).toFixed(2),
     category: "pasta",
   },

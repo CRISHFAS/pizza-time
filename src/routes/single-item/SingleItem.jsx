@@ -41,7 +41,7 @@ const SingleItem = ({ handleAddProduct, handleRemoveProduct }) => {
       <Link
         to="/menu"
         className="single-item__back">
-        ← Back
+        ← Volver
       </Link>
       <article className="single-item__inner flex-container flex-column txt-white">
         <img

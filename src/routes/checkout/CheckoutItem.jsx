@@ -16,8 +16,8 @@ const CheckoutItem = ({ cartItem  }) => {
           <h3>{cartItem.ItemName}</h3> :
           <h3>{cartItem.ItemName}  <span>{selectedAttributes}</span></h3>
         }
-        <p>Quantity: {cartItem.quantity}</p>
-        <p>Price: $ {cartItem.ItemPrice}</p>
+        <p>Cantidad: {cartItem.quantity}</p>
+        <p>Precio: $ {cartItem.ItemPrice}</p>
       </section>
     </section>
   );

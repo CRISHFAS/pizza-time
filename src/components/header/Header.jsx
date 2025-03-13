@@ -81,7 +81,7 @@ const Header = ({
                 }
                 aria-current={({ isActive }) => (isActive ? "page" : undefined)}
                 to="/profile">
-                Profile
+                Perfil
               </NavLink>
             </li>
           )}
@@ -95,7 +95,7 @@ const Header = ({
                     ResetLocation();
                     handleLogout();
                   }}>
-                  Log out
+                  Finalizar la Sesión
                 </Link>
               ) : (
                 <button
@@ -104,7 +104,7 @@ const Header = ({
                     ResetLocation();
                     activateLoginModal();
                   }}>
-                  Log in
+                  Acceso
                 </button>
               )}
               <NavLink
@@ -119,7 +119,7 @@ const Header = ({
                   alt=""
                   aria-hidden="true"
                 />
-                <p>Cart</p>
+                <p>Carro</p>
                 <p>({productsQuantity})</p>
               </NavLink>
             </div>

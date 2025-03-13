@@ -49,7 +49,7 @@ const Register = ({ activateLoginModal }) => {
         if (response.status === 200) {
           return true;
         } else {
-          console.log("Error in createUser");
+          console.log("Error al crear usuario");
           return false;
         }
       }
@@ -126,14 +126,14 @@ const Register = ({ activateLoginModal }) => {
       transition={{ duration: 1 }}>
       <h2>
         {submit && Object.keys(formError).length === 0
-          ? "Success!"
-          : "Registration"}
+          ? "Exito!"
+          : "Registro"}
       </h2>
       {loading ? (
         <div
           role="status"
           className="loader">
-          <p>Almost there...</p>
+          <p>Casi llegamos...</p>
           <img
             alt="Processing request"
             src="https://media0.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif?cid=ecf05e472hf2wk1f2jou3s5fcnx1vek6ggnfcvhsjbeh7v5u&ep=v1_stickers_search&rid=giphy.gif&ct=s"
@@ -141,7 +141,7 @@ const Register = ({ activateLoginModal }) => {
         </div>
       ) : submit && Object.keys(formError).length === 0 ? (
         <section className="register__success">
-          <p>You can now log in and make an order!</p>
+          <p>Ya puedes iniciar sesión y realizar un pedido!</p>
           <button
             className="passive-button-style txt-white"
             onClick={() => {
@@ -149,7 +149,7 @@ const Register = ({ activateLoginModal }) => {
               activateLoginModal();
               setSubmit(false);
             }}>
-            Log in
+            Acceso
           </button>
         </section>
       ) : (
@@ -158,13 +158,13 @@ const Register = ({ activateLoginModal }) => {
           onSubmit={handleSubmit}>
           {registrationFail && (
             <p className="register__error">
-              Seems like this email has already been registered!
+            Parece que este correo electrónico ya ha sido registrado!
             </p>
           )}
           <section className="register__form__field">
             <input
               type="text"
-              placeholder="Full name"
+              placeholder="Nombre completo"
               name="fullname"
               value={formValue.fullname}
               onChange={handleValidation}
@@ -184,7 +184,7 @@ const Register = ({ activateLoginModal }) => {
           <section className="register__form__field">
             <input
               type="password"
-              placeholder="New password"
+              placeholder="Nueva contraseña"
               name="password"
               value={formValue.password}
               onChange={handleValidation}
@@ -192,7 +192,7 @@ const Register = ({ activateLoginModal }) => {
             <span className="register__error">{formError.password}</span>
             <input
               type="password"
-              placeholder="Repeat password"
+              placeholder="Repetir contraseña"
               name="repeatPassword"
               value={formValue.repeatPassword}
               onChange={handleValidation}
@@ -202,7 +202,7 @@ const Register = ({ activateLoginModal }) => {
           <section className="register__form__field-b">
             <input
               type="text"
-              placeholder="Address (optional)"
+              placeholder="Dirección (opcional)"
               name="address"
               value={formValue.address}
               onChange={handleValidation}
@@ -212,7 +212,7 @@ const Register = ({ activateLoginModal }) => {
           <section className="register__form__field-b">
             <input
               type="text"
-              placeholder="Number (optional)"
+              placeholder="Número (optional)"
               name="number"
               value={formValue.number}
               onChange={handleValidation}
@@ -220,14 +220,12 @@ const Register = ({ activateLoginModal }) => {
             <span className="register__error">{formError.number}</span>
           </section>
           <p className="terms-warning register__form__terms">
-            By clicking Sign Up, you agree to our Terms, Data Policy and Cookies
-            Policy. You may receive an email notification from us and can opt
-            out any time.
+          Al hacer clic en Registrarse, acepta nuestros Términos, Política de datos y Política de cookies. Puede recibir una notificación por correo electrónico de nuestra parte y puede cancelar su suscripción en cualquier momento.
           </p>
           <button
             className="register__submit"
             type="submit">
-            Sign up
+            Inscribirse
           </button>
         </form>
       )}

@@ -6,7 +6,7 @@ const SuccessMsg = () => {
       className="success"
       role="alert"
       aria-live="assertive">
-      <p>item added to cart!</p>
+      <p>artículo agregado al carrito!</p>
     </section>
   );
 };

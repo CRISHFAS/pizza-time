@@ -9,11 +9,11 @@ const CartTotals = ({ totalPayment, productsQuantity, taxes, className, validLog
       {productsQuantity > 0 &&
           <section className="cart-totals_content">
             <section>
-              <h4>Tax 10%:</h4>
+              <h4>Impuesto 10%:</h4>
               <p>$ {taxes}</p>
             </section>
             <section>
-              <h4>Quantity:</h4>
+              <h4>Cantidad:</h4>
               <p> {productsQuantity}</p>
             </section>
             <section>
@@ -33,7 +33,7 @@ const CartTotals = ({ totalPayment, productsQuantity, taxes, className, validLog
                 to="/menu"
                 className="back-to-menu"
               >
-                Back to menu
+                Volver al menú
               </LinkButton>
             </section>
     </article>

@@ -15,7 +15,7 @@ const Cart = ({ cartItems, CartItem }) => {
       whileInView={{ opacity: 1, translateX: 0 }}
       exit={{ opacity: 0, translateX: -300 }}
       transition={{ duration: 1 }}>
-      <h2>Shopping cart</h2>
+      <h2>Carro de la compra</h2>
       <article className="cart__items">
         {cartItems.length === 0 ? <EmptyCart /> : CartItem}
       </article>

@@ -5,7 +5,7 @@ export const getUsers = (req, res) => {
     .getUsers()
     .then((result) => {
       res.status(200).json({
-        message: "Users retrieved",
+        message: "Usuarios recuperados",
         data: result.rows,
       });
     })
@@ -19,7 +19,7 @@ export const getUser = (req, res) => {
     .getUser(id)
     .then((result) => {
       res.status(200).json({
-        message: "User retrieved",
+        message: "Usuario recuperado",
         data: result.rows,
       });
     })
@@ -33,7 +33,7 @@ export const createUser = (req, res) => {
     .createUser(user)
     .then(() => {
       res.status(200).json({
-        message: "User created",
+        message: "Usuario creado",
       });
     })
     .catch((err) => {
@@ -47,7 +47,7 @@ export const updateUser = (req, res) => {
     .updateUser(id, user)
     .then(() => {
       res.status(200).json({
-        message: `User updated`,
+        message: "Usuario actualizado",
         data: user,
       });
     })
@@ -61,7 +61,7 @@ export const deleteUser = (req, res) => {
     .deleteUser(id)
     .then(() => {
       res.status(200).json({
-        message: "User deleted",
+        message: "Usuario eliminado",
       });
     })
     .catch((err) => {

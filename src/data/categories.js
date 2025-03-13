@@ -16,11 +16,11 @@ export const categories = [
     id: "Sushi",
   },
   {
-    name: "Drinks",
-    id: "Drinks",
+    name: "Bebidas",
+    id: "Bebidas",
   },
   {
-    name: "Sale",
-    id: "Sale",
+    name: "Ventas",
+    id: "Ventas",
   },
 ];

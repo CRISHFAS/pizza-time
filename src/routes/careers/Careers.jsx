@@ -12,8 +12,8 @@ const Careers = () => {
     }, []);
     return (
         <main className="careers">
-            <h2>Careers</h2>
-            <h3>If you think you can add value with your expertise, passion, and hard work, you might be the ONE!</h3>
+            <h2>Carreras</h2>
+            <h3>Si crees que puedes agregar valor con tu experiencia, pasión y trabajo duro, ¡quizás seas el indicado!</h3>
             <section className="careers__inner">
                 {careers.map((career) =>
                     <section key={career.id} className="careers__listings">
@@ -22,7 +22,7 @@ const Careers = () => {
                             <p>{career.description}</p>
                             <hr aria-hidden="true" />
                         </section>
-                        <Link to="/contact" onClick={ResetLocation}>Apply</Link>
+                        <Link to="/contact" onClick={ResetLocation}>Aplicar</Link>
                     </section>
                 )}
             </section>

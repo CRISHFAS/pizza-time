@@ -1,64 +1,64 @@
 const privacyContent = [
     {
         id: 1,
-        title: 'Information We Collect',
-        content: `We collect the following types of information when you use our website and services:
+        title: 'Información que recopilamos',
+        content: `Recopilamos los siguientes tipos de información cuando utiliza nuestro sitio web y nuestros servicios:
 
-        Personal Information: This includes your name, contact details (such as email address, phone number), and delivery address.
-        
-        Payment Information: We collect payment details, including credit/debit card numbers or other financial information, necessary for processing your orders and payments securely.
-        
-        Order Information: We gather data about your orders, preferences, and purchase history to enhance your experience and improve our services.
-        
-        Device and Usage Information: We automatically collect information about your device, browser type, IP address, and usage patterns on our website to optimize your browsing experience and troubleshoot technical issues.`
+        Información personal: incluye su nombre, datos de contacto (como dirección de correo electrónico, número de teléfono) y dirección de envío.
+
+        Información de pago: recopilamos detalles de pago, incluidos números de tarjetas de crédito/débito u otra información financiera, necesarios para procesar sus pedidos y pagos de forma segura.
+
+        Información de pedidos: recopilamos datos sobre sus pedidos, preferencias e historial de compras para mejorar su experiencia y nuestros servicios.
+
+        Información de uso y dispositivo: recopilamos automáticamente información sobre su dispositivo, tipo de navegador, dirección IP y patrones de uso en nuestro sitio web para optimizar su experiencia de navegación y solucionar problemas técnicos.`
     },
     {
         id: 2,
-        title: 'How We Use Your Information',
-        content: `We use your personal information for the following purposes:
+        title: 'Cómo utilizamos su información',
+        content: `Utilizamos su información personal para los siguientes fines:
 
-        Order Fulfillment: To process and deliver your orders accurately and efficiently.
-        
-        Customer Support: To respond to your inquiries, requests, and provide assistance when needed.
-        
-        Improvement of Services: We analyze your usage patterns and feedback to enhance our website, services, and offerings.
-        
-        Marketing: With your consent, we may send you promotional emails, newsletters, and updates about our products and special offers.
-        
-        Security and Fraud Prevention: We use your information to monitor and prevent fraudulent activities, ensuring the security of your transactions.`
+        Cumplimiento de pedidos: Para procesar y entregar sus pedidos de manera precisa y eficiente.
+
+        Atención al cliente: Para responder a sus consultas, solicitudes y brindarle asistencia cuando sea necesario.
+
+        Mejora de los servicios: Analizamos sus patrones de uso y comentarios para mejorar nuestro sitio web, nuestros servicios y nuestras ofertas.
+
+        Marketing: Con su consentimiento, podemos enviarle correos electrónicos promocionales, boletines informativos y actualizaciones sobre nuestros productos y ofertas especiales.
+
+        Seguridad y prevención del fraude: Usamos su información para monitorear y prevenir actividades fraudulentas, lo que garantiza la seguridad de sus transacciones.`
     },
     {
         id: 3,
-        title: ' Information Sharing and Disclosure',
-        content: `We do not sell, trade, or rent your personal information to third parties. However, we may share your information with:
+        title: 'Intercambio y divulgación de información',
+        content: `No vendemos, comercializamos ni alquilamos su información personal a terceros. Sin embargo, podemos compartir su información con:
 
-        Service Providers: We may share your information with trusted third-party service providers who help us deliver our services, process payments, and maintain our website's functionality.
-        
-        Legal Compliance: We may disclose your information when required by law or to protect our rights, privacy, safety, or property.`
+        Proveedores de servicios: podemos compartir su información con proveedores de servicios externos de confianza que nos ayudan a brindar nuestros servicios, procesar pagos y mantener la funcionalidad de nuestro sitio web.
+
+        Cumplimiento legal: podemos divulgar su información cuando lo exija la ley o para proteger nuestros derechos, privacidad, seguridad o propiedad.`
     },
     {
         id: 4,
-        title: 'Your Choices',
-        content: `Opt-Out: You can unsubscribe from marketing communications at any time by following the instructions provided in our emails or contacting us directly.
+        title: 'Tus opciones',
+        content: `Cancelación de suscripción: puede darse de baja de las comunicaciones de marketing en cualquier momento siguiendo las instrucciones proporcionadas en nuestros correos electrónicos o comunicándose con nosotros directamente.
 
-        Access and Update: You can access and update your personal information by logging into your account on our website.
-        
-        Delete Account: If you wish to delete your account, please contact us at [email address] with your request. Please note that certain information may be retained for legal and business purposes.`
+        Acceso y actualización: puede acceder y actualizar su información personal iniciando sesión en su cuenta en nuestro sitio web.
+
+        Eliminación de cuenta: si desea eliminar su cuenta, comuníquese con nosotros a [dirección de correo electrónico] con su solicitud. Tenga en cuenta que cierta información puede conservarse para fines legales y comerciales.`
     },
     {
         id: 5,
-        title: 'Data Security',
-        content: `We implement industry-standard security measures to protect your personal information from unauthorized access, disclosure, or alteration. However, no data transmission over the internet can be guaranteed to be 100% secure. Therefore, while we strive to protect your information, we cannot guarantee its absolute security.`
+        title: 'Seguridad de datos',
+        content: `Implementamos medidas de seguridad estándar de la industria para proteger su información personal contra acceso, divulgación o alteración no autorizados. Sin embargo, no se puede garantizar que ninguna transmisión de datos a través de Internet sea 100 % segura. Por lo tanto, si bien nos esforzamos por proteger su información, no podemos garantizar su seguridad absoluta.`
     },
     {
         id: 3,
-        title: `Children's Privacy`,
-        content: `Our services are not intended for individuals under the age of 18. We do not knowingly collect personal information from minors. If you are a parent or guardian and believe that your child has provided us with their information, please contact us.`
+        title: `Privacidad de los niños`,
+        content: `Nuestros servicios no están destinados a personas menores de 18 años. No recopilamos deliberadamente información personal de menores. Si usted es padre o tutor y cree que su hijo nos ha proporcionado su información, comuníquese con nosotros.`
     },
     {
         id: 3,
-        title: 'Changes to this Privacy Policy',
-        content: `We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any significant changes by posting a prominent notice on our website or sending you an email.`
+        title: 'Cambios a esta Política de Privacidad',
+        content: `Es posible que actualicemos esta Política de privacidad de vez en cuando para reflejar cambios en nuestras prácticas o requisitos legales. Le notificaremos cualquier cambio significativo mediante la publicación de un aviso destacado en nuestro sitio web o enviándole un correo electrónico.`
     },
 
 ]

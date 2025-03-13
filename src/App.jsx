@@ -80,11 +80,11 @@ function App() {
         }
         return true;
       } else {
-        console.log("Update failed with status:", response.status);
+        console.log("La actualización falló con el estado:", response.status);
         return false;
       }
     } catch (err) {
-      console.log("Fetch error:", err.message);
+      console.log("Error de recuperación:", err.message);
       return false;
     }
   };

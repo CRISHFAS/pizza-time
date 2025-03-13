@@ -28,7 +28,7 @@ const Hero = () => {
       <video ref={videoRef} autoPlay loop muted playsInline preload="none" width="375" className={`hero__video ${isLoading ? '' : 'loaded'}`}>
         <source src={HeroVideo_375} type="video/mp4" media="(max-width: 1024px)" />
         <source src={HeroVideo} type="video/mp4" media="(min-width: 1025px)" />
-        Your browser does not support the video tag.
+        Su navegador no soporta la etiqueta de vídeo.
       </video>
 
 
@@ -39,20 +39,19 @@ const Hero = () => {
           exit={{ opacity: 0 }}
           transition={{ duration: 3 }}
         >
-          <span>Welcome</span>
-          <h1 className="txt-white">try something amazing</h1>
+          <span>Bienvenido</span>
+          <h1 className="txt-white">prueba algo increíble</h1>
           <p className="txt-white">
-            Ordering your fave Pizza is quick and easy with our app or on our
-            website.
+          Pedir tu pizza favorita es rápido y fácil con nuestra aplicación o en nuestro sitio web.
           </p>
         </motion.div>
 
         <div className="hero__interaction flex-container flex-row">
           <Link className="passive-button-style" to="/blog">
-            Read Blog
+            Leer Blog
           </Link>
           <Link className="passive-button-style  " to="/menu">
-            View Menu
+          Ver menú
           </Link>
         </div>
       </section>

@@ -7,12 +7,10 @@ const Terms = () => {
   }, []);
   return (
     <main className="terms">
-      <h2>Terms & Conditions</h2>
+      <h2>Términos y condiciones</h2>
       <p>
-        Welcome to Pizza Time. These Terms of Service outline the rules and
-        guidelines for using our website and services. By accessing or using our
-        website, you agree to abide by these terms. Please read them carefully
-        before proceeding.
+      Bienvenido a Pizza Time. Estos Términos de servicio describen las reglas y
+      pautas para usar nuestro sitio web y nuestros servicios. Al acceder o usar nuestro sitio web, usted acepta cumplir con estos términos. Léalos detenidamente antes de continuar.
       </p>
       {termsContent.map((content) => (
         <section key={content.title}>

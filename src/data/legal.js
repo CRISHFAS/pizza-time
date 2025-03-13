@@ -1,19 +1,19 @@
 const legalInformation = [
   {
     to: "/careers",
-    label: "Careers",
+    label: "Carreras",
   },
   {
     to: "/privacy",
-    label: "Privacy",
+    label: "Privacidad",
   },
   {
     to: "/refunds",
-    label: "Refunds",
+    label: "Reembolsos",
   },
   {
     to: "/terms",
-    label: "Terms",
+    label: "Términos",
   },
 ];
 

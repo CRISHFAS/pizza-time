@@ -12,7 +12,7 @@ const BlogPosts = ({ blogPost }) => {
       />
       <section className="blog__posts__credentials">
         <p>{blogPost.date}</p>
-        <p>by {blogPost.author}</p>
+        <p>por {blogPost.author}</p>
       </section>
       <Link
         onClick={ResetLocation}

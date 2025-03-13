@@ -7,13 +7,13 @@ const AboutCareers = () => {
   return (
     <article className="about__careers">
       <section className="about__careers__content">
-        <h2 className="sub-title">Careers</h2>
-        <h3>Join the team</h3>
+        <h2 className="sub-title">Carreras</h2>
+        <h3>Únete al equipo</h3>
         <p>
-          Are you passionate about great food, exceptional customer service, and working with a fun and dynamic team? If so, we would love to have you join our team at Pizza Time!
-          We are always on the lookout for talented and motivated individuals to join our team in a variety of roles, from servers and chefs to kitchen staff and management. Whether you're just starting out in the foods ervice industry or have years of experience under your belt, we offer a supportive and collaborative work environment that encourages personal and professional growth.
+        Te apasiona la buena comida, el servicio al cliente excepcional y trabajar con un equipo divertido y dinámico? Si es así, ¡nos encantaría que te unas a nuestro equipo en Pizza Time!
+        Siempre estamos buscando personas talentosas y motivadas para que se unan a nuestro equipo en una variedad de roles, desde meseros y chefs hasta personal de cocina y administración. Ya sea que recién estés comenzando en la industria de servicios de alimentos o tengas años de experiencia, ofrecemos un entorno de trabajo colaborativo y de apoyo que fomenta el crecimiento personal y profesional.
         </p>
-        <Link to="/careers" onClick={ResetLocation} className="active-button-style">Join now</Link>
+        <Link to="/careers" onClick={ResetLocation} className="active-button-style">Únete ahora</Link>
       </section>
       <img src={OfficeTwo} alt="" aria-hidden="true" />
     </article>

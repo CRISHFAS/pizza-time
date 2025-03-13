@@ -56,10 +56,10 @@ const WelcomeSection = () => {
           height={499}
         />
         <h2 className="txt-white">
-          Welcome to <span>Pizza Time</span> restaurant
+        Bienvenido al <span>Restaurant</span> Pizza Time
         </h2>
         <p>
-          Founded in 1982 we bring pizza slice by slice to the next level! Unique branding and being in the pizza industry is the formula to our success. We do understand what people want and convert desires to unique experiences of taste. Freshness, originality, and quality are only a small part of our priorities. Affortable costs, located almost anywhere you go, amazing online operational system to order food in one click. Easy to navigate pre-order options and amazing options for corporate parties! At Pizza Time we care about you because you are the one who makes us special!
+        Fundada en 2022, ¡llevamos la pizza porción por porción al siguiente nivel! Nuestra marca única y estar en la industria de la pizza son la fórmula de nuestro éxito. Entendemos lo que la gente quiere y convertimos los deseos en experiencias únicas de sabor. La frescura, la originalidad y la calidad son solo una pequeña parte de nuestras prioridades. Costos asequibles, ubicación prácticamente en cualquier lugar al que vayas, un increíble sistema operativo en línea para pedir comida con un solo clic. Opciones de pedidos anticipados fáciles de navegar y opciones increíbles para fiestas corporativas. En Pizza Time nos preocupamos por ti porque eres quien nos hace especiales.!
         </p>
       </motion.section>
       <LazyLoadImage

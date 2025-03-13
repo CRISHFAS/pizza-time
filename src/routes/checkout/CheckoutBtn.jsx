@@ -11,10 +11,10 @@ const CheckoutBtn = ({ className, validLogin, activateLoginModal }) => {
           onClick={ResetLocation}
           to="/checkout"
           className={className}
-        >Checkout</LinkButton>
+        >Verificar</LinkButton>
         :
         <button className={className} onClick={() => { ResetLocation(); activateLoginModal() }}>
-          Checkout</button>
+          Verificar</button>
       }
     </React.Fragment>
 

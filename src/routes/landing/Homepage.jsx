@@ -24,7 +24,7 @@ const Homepage = () => {
   return (
     <React.Fragment>
       <Hero />
-      <Suspense fallback={<div>Loading...</div>} />
+      <Suspense fallback={<div>Cargando...</div>} />
       <WelcomeSection />
       <ContactUsLanding />
       <OurServices />

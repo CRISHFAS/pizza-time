@@ -4,11 +4,11 @@ const AboutDedication = () => {
   return (
     <article className="about__dedication">
       <section className="content">
-        <h2 className="sub-title">Dedicated</h2>
-        <h3>Changing the world together</h3>
+        <h2 className="sub-title">Dedicación</h2>
+        <h3>Cambiando el mundo juntos</h3>
         <p>
-          We believe that our success is due to our commitment to providing high-quality food and exceptional service. Our menu features a wide range of delicious pizzas, salads, sandwiches, pasta dishes, and more, all made with fresh, locally sourced ingredients. We take great care to ensure that each dish is prepared with the utmost attention to detail, so that every bite is as delicious as the last.
-          We also understand that great food is only part of the equation. That's why we place a strong emphasis on delivering exceptional service to every customer who walks through our doors. Our team of dedicated staff members is committed to providing a warm, welcoming atmosphere that makes every guest feel like they are part of the family.
+        Creemos que nuestro éxito se debe a nuestro compromiso de ofrecer comida de alta calidad y un servicio excepcional. Nuestro menú incluye una amplia variedad de deliciosas pizzas, ensaladas, sándwiches, platos de pasta y más, todos elaborados con ingredientes frescos de origen local. Nos aseguramos de que cada plato se prepare con la máxima atención al detalle, para que cada bocado sea tan delicioso como el anterior. 
+        También entendemos que la buena comida es solo una parte de la ecuación. Es por eso que ponemos un gran énfasis en brindar un servicio excepcional a cada cliente que cruza nuestras puertas. Nuestro equipo de personal dedicado se compromete a brindar un ambiente cálido y acogedor que haga que cada huésped se sienta como si fuera parte de la familia.
         </p>
       </section>
       <div className="black-glass"></div>

@@ -14,7 +14,7 @@ const LoginModal = ({
   getUser,
 }) => {
   const navigate = useNavigate();
-  const [formValue, setFormValue] = useState({ email: "", password: "" });
+  const [formValue, setFormValue] = useState({ email: "", contraseña: "" });
   const [formError, setFormError] = useState({});
   const [loading, setLoading] = useState(false);
   const [verificationError, setVerificationError] = useState("");
@@ -40,7 +40,7 @@ const LoginModal = ({
 
   const hideLoginModal = () => {
     setLoginModalWindow(false);
-    setFormValue((prev) => ({ email: prev.email, password: "" }));
+    setFormValue((prev) => ({ email: prev.email, contraseña: "" }));
     setFormError({});
   };
 
@@ -59,15 +59,15 @@ const LoginModal = ({
       );
       if (emailExists.length === 0) {
         setLoading(false);
-        setFormValue((prev) => ({ email: prev.email, password: "" }));
+        setFormValue((prev) => ({ email: prev.email, contraseña: "" }));
         setFormError({});
-        setVerificationError("Can't find accounts with this email");
+        setVerificationError("No se pueden encontrar cuentas con este correo electrónico");
         return;
       }
       const user = emailExists[0];
       if (user.password !== formValue.password) {
         setLoading(false);
-        setFormValue((prev) => ({ email: prev.email, password: "" }));
+        setFormValue((prev) => ({ email: prev.email, contraseña: "" }));
         setFormError({});
         setVerificationError("Wrong password, try again");
         return;
@@ -75,7 +75,7 @@ const LoginModal = ({
       getUser(user.id);
       setLoading(false);
       hideLoginModal();
-      setFormValue((prev) => ({ email: prev.email, password: "" }));
+      setFormValue((prev) => ({ email: prev.email, contraseña: "" }));
       setFormError({});
       setVerificationError("");
       setValidLogin(true);
@@ -110,12 +110,12 @@ const LoginModal = ({
           X
         </button>
         <div className="modal__content">
-          <h2 id="modal-title">Log in</h2>
+          <h2 id="modal-title">Acceso</h2>
           {loading ? (
             <div
               role="status"
               className="loader">
-              <p>Almost there...</p>
+              <p>Casi llegamos...</p>
               <img
                 alt="Processing request"
                 src="https://media0.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif?cid=ecf05e472hf2wk1f2jou3s5fcnx1vek6ggnfcvhsjbeh7v5u&ep=v1_stickers_search&rid=giphy.gif&ct=s"
@@ -170,16 +170,16 @@ const LoginModal = ({
                     hideMenu();
                   }}
                   to="/register"
-                  aria-label="Register a new account"
+                  aria-label="Registrar una nueva cuenta"
                   className="modal__buttons__signup">
-                  Sign up
+                  Inscribirse
                 </LinkButton>
                 <button
-                  aria-label="Log in to account"
+                  aria-label="Iniciar sesión en la cuenta"
                   type="submit"
                   disabled={loading}
                   className="modal__buttons__login">
-                  Log in
+                  Acceso
                 </button>
               </div>
             </form>

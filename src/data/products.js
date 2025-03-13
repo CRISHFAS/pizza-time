@@ -108,8 +108,8 @@ export const products = [
   {
     id: "cheese-pizza",
     ItemImg: CheesePizza,
-    ItemName: "Cheese Pizza",
-    ItemIngredients: "Pizza dough, pizza sauce, provolone cheese, mozzarella.",
+    ItemName: "Pizza de Queso",
+    ItemIngredients: "Masa de pizza, salsa de pizza, queso provolone, mozzarella.",
     ItemPrice: (2).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -129,9 +129,9 @@ export const products = [
   {
     id: "veggie-pizza",
     ItemImg: VeggiePizza,
-    ItemName: "Veggie Pizza",
+    ItemName: "Pizza vegetariana",
     ItemIngredients:
-      "Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.",
+      "Salsa para pizza, cebolla, pimiento, piña, jengibre, salsa picante, cilantro, salsa de ajo, salsa de mantequilla, queso.",
     ItemPrice: (9).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -150,9 +150,9 @@ export const products = [
   {
     id: "pepperoni-pizza",
     ItemImg: PepperoniPizza,
-    ItemName: "Pepperoni Pizza",
+    ItemName: "Pizza de peperoni",
     ItemIngredients:
-      "Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.",
+      "Masa de pizza: levadura, pepperoni, pasta de tomate, queso mozzarella, azúcar.",
     ItemPrice: (5).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -171,9 +171,9 @@ export const products = [
   {
     id: "meat-pizza",
     ItemImg: MeatPizza,
-    ItemName: "Meat Pizza",
+    ItemName: "pizza de carne",
     ItemIngredients:
-      "Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.",
+      "Salchicha, masa de pizza, tocino, salsa de pizza, hojuelas de pimiento rojo.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -192,9 +192,9 @@ export const products = [
   {
     id: "margherita-pizza",
     ItemImg: MargheritaPizza,
-    ItemName: "Margherita Pizza",
+    ItemName: "Pizza margarita",
     ItemIngredients:
-      "Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.",
+      "Masa de pizza, salsa de tomate, mozzarella fresca, aceite de oliva, hojas de albahaca.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -213,9 +213,9 @@ export const products = [
   {
     id: "bbq-chicken-pizza",
     ItemImg: BBQPizza,
-    ItemName: "BBQ Chicken Pizza",
+    ItemName: "Pizza de pollo a la barbacoa",
     ItemIngredients:
-      "Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.",
+      "Pollo rostizado, masa de pizza, salsa barbacoa, queso cheddar ahumado, queso mozzarella.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -235,7 +235,7 @@ export const products = [
     id: "alla-pala-pizza",
     ItemImg: AllaPalla,
     ItemName: "Pizza alla pala",
-    ItemIngredients: "Cheese, cherry tomatoes, arugula, olive oil, yeast.",
+    ItemIngredients: "Queso, tomates cherry, rúcula, aceite de oliva, levadura.",
     ItemPrice: (12).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -254,9 +254,9 @@ export const products = [
   {
     id: "prosciutto-e-funghi-pizza",
     ItemImg: Prosciutto,
-    ItemName: "Prosciutto e Funghi Pizza",
+    ItemName: "Pizza con jamón y hongos",
     ItemIngredients:
-      "Italian sausage meat, truffle oil, pizza dough, san marzano tomatoes, bocconcini cheese.",
+      "Carne de salchicha italiana, aceite de trufa, masa de pizza, tomates san marzano, queso bocconcini.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -275,9 +275,9 @@ export const products = [
   {
     id: "detroit-style-pizza",
     ItemImg: DetroitStyle,
-    ItemName: "Detroit-Style Pizza",
+    ItemName: "Pizza estilo Detroit",
     ItemIngredients:
-      "Pizza dough, pizza sauce, brick cheese, rapid rise yeast, olive oil.",
+      "Masa de pizza, salsa de pizza, queso brick, levadura rápida, aceite de oliva.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -296,9 +296,9 @@ export const products = [
   {
     id: "garlic-fingers",
     ItemImg: GarlicFingers,
-    ItemName: "Garlic Fingers",
+    ItemName: "Dedos de ajo",
     ItemIngredients:
-      "Bread flour, mozzarella cheese, butter, olive oil, instant yeast.",
+      "Harina de pan, queso mozzarella, mantequilla, aceite de oliva, levadura instantánea.",
     ItemPrice: (7).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -317,9 +317,9 @@ export const products = [
   {
     id: "st-ouis-style-pizza",
     ItemImg: StLous,
-    ItemName: "St. Louis-Style Pizza",
+    ItemName: "Pizza al estilo de San Luis",
     ItemIngredients:
-      "Liquid smoke, swiss cheese, white cheddar cheese, light corn syrup, pizza sauce.",
+      "Humo líquido, queso suizo, queso cheddar blanco, jarabe de maíz ligero, salsa de pizza.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -338,8 +338,8 @@ export const products = [
   {
     id: "rustica-pizza",
     ItemImg: Rustica,
-    ItemName: "Pizza Rustica",
-    ItemIngredients: "Prosciutto, pepperoni, mozzarella, crust, eggs.",
+    ItemName: "Pizza Rústica",
+    ItemIngredients: "Jamón, pepperoni, mozzarella, corteza, huevos.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -358,9 +358,9 @@ export const products = [
   {
     id: "pesto-genovese-pizza",
     ItemImg: Genovese,
-    ItemName: "Pizza pesto Genovese",
+    ItemName: "Pizza al pesto genovés",
     ItemIngredients:
-      "Pine nuts, baby potatoes, snow pea shoots, lemon, buffalo mozzarella.",
+      "Piñones, patatas baby, brotes de guisantes, limón, mozzarella de búfala.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -379,8 +379,8 @@ export const products = [
   {
     id: "e-fichi-pizza",
     ItemImg: Efichi,
-    ItemName: "Pizza e fichi",
-    ItemIngredients: "Coconut flour, truffle oil, fig jam, cheese, prosciutto.",
+    ItemName: "Pizza y Fichi",
+    ItemIngredients: "Harina de coco, aceite de trufa, mermelada de higos, queso, prosciutto.",
     ItemPrice: (12).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -401,7 +401,7 @@ export const products = [
     ItemImg: Apizza,
     ItemName: "Apizza",
     ItemIngredients:
-      "Ricotta cheese, tomato sauce, fresh basil pesto, fresh mozzarella cheese, semolina flour.",
+      "Queso ricotta, salsa de tomate, pesto de albahaca fresca, queso mozzarella fresco, harina de sémola.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -420,9 +420,9 @@ export const products = [
   {
     id: "stuffed-pizza",
     ItemImg: StuffedPizza,
-    ItemName: "Stuffed Pizza",
+    ItemName: "Pizza Rellena",
     ItemIngredients:
-      "Hot italian sausage, sweet italian sausage, pizza dough, red pepper flakes, olive oil.",
+      "Salchicha italiana picante, salchicha italiana dulce, masa de pizza, hojuelas de pimiento rojo, aceite de oliva.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -441,9 +441,9 @@ export const products = [
   {
     id: "pugliese-pizza",
     ItemImg: Pugliese,
-    ItemName: "Pugliese Pizza",
+    ItemName: "Pizza Pugliese",
     ItemIngredients:
-      "Sloppy joe, banana peppers, ground beef, pizza dough, ricotta cheese.",
+      "Sloppy Joe, pimientos morrones, carne molida, masa de pizza, queso ricotta.",
     ItemPrice: (9).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -462,9 +462,9 @@ export const products = [
   {
     id: "tomato-pie",
     ItemImg: TomatoPie,
-    ItemName: "Tomato Pie",
+    ItemName: "pastel de tomate",
     ItemIngredients:
-      "Pizza dough, san marzano, red pepper flakes, pizza stone, olive oil.",
+      "Masa de pizza, san marzano, hojuelas de pimiento rojo, piedra para pizza, aceite de oliva.",
     ItemPrice: (15).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -484,7 +484,7 @@ export const products = [
     id: "fugazza",
     ItemImg: Fugaza,
     ItemName: "Fugazza",
-    ItemIngredients: "Mozzarella cheese, sugar, dry yeast, all purpose flour.",
+    ItemIngredients: "Queso mozzarella, azúcar, levadura seca, harina común.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -503,9 +503,9 @@ export const products = [
   {
     id: "fiori-di-zucca",
     ItemImg: DiZucca,
-    ItemName: "Pizza fiori di zucca",
+    ItemName: "Pizza con flores de calabacín",
     ItemIngredients:
-      "Zucchini blossoms, pizza dough, buffalo mozzarella, olive oil.",
+      "Flores de calabacín, masa de pizza, mozzarella de búfala, aceite de oliva.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -526,7 +526,7 @@ export const products = [
     ItemImg: Fugazeta,
     ItemName: "Fugazzeta",
     ItemIngredients:
-      "Feta cheese, mozzarella cheese, parmesan cheese, olive oil, yeast.",
+      "Queso feta, queso mozzarella, queso parmesano, aceite de oliva, levadura.",
     ItemPrice: (9).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -547,7 +547,7 @@ export const products = [
     ItemImg: Carbonara,
     ItemName: "Pizza Carbonara",
     ItemIngredients:
-      "Refrigerated pizza crust, monterey jack cheese, parmesan cheese, butter, chicken bouillon.",
+      "Masa de pizza refrigerada, queso monterey jack, queso parmesano, mantequilla, caldo de pollo.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -566,9 +566,9 @@ export const products = [
   {
     id: "grandma-pie",
     ItemImg: GranmaPie,
-    ItemName: "Grandma Pie",
+    ItemName: "Pastel de abuela",
     ItemIngredients:
-      "Dark brown sugar, san marzano tomatoes, tomato paste, bread flour, red pepper flakes.",
+      "Azúcar moreno oscuro, tomates san marzano, pasta de tomate, harina de pan, hojuelas de pimiento rojo.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -589,7 +589,7 @@ export const products = [
     ItemImg: Padellino,
     ItemName: "Pizza al padellino",
     ItemIngredients:
-      "Mozzarella cheese, prosciutto di parma, dough, baby arugula, black pepper",
+      "Queso mozzarella, prosciutto di parma, masa, rúcula baby, pimienta negra.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -608,9 +608,9 @@ export const products = [
   {
     id: "california-style-pizza",
     ItemImg: CaliforniaStyle,
-    ItemName: "California-Style Pizza",
+    ItemName: "Pizza estilo California",
     ItemIngredients:
-      "Feta cheese, marinated artichoke hearts, pizza crust, red bell pepper, red onion.",
+      "Queso feta, corazones de alcachofa marinados, masa de pizza, pimiento rojo, cebolla roja.",
     ItemPrice: (15).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -631,7 +631,7 @@ export const products = [
     ItemImg: Fritta,
     ItemName: "Pizza fritta",
     ItemIngredients:
-      "Ricotta cheese, tomato sauce, tipo 00, neapolitan pizza base, mozzarella cheese.",
+      "Queso ricotta, salsa de tomate tipo 00, base de pizza napolitana, queso mozzarella.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -652,7 +652,7 @@ export const products = [
     ItemImg: Romana,
     ItemName: "Pinsa romana",
     ItemIngredients:
-      "Rice flour, olive oil, plain flour, sea salt, dried yeast.",
+      "Harina de arroz, aceite de oliva, harina común, sal marina, levadura seca.",
     ItemPrice: (5).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -671,9 +671,9 @@ export const products = [
   {
     id: "chicago-thin-crust-pizza",
     ItemImg: ThinCrust,
-    ItemName: "Chicago Thin Crust Pizza",
+    ItemName: "Pizza de masa fina estilo Chicago",
     ItemIngredients:
-      "Sweet italian sausage, semolina flour, pizza sauce, giardiniera, sugar.",
+      "Salchicha italiana dulce, harina de sémola, salsa para pizza, giardiniera, azúcar.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -692,9 +692,9 @@ export const products = [
   {
     id: "greek-style-pizza",
     ItemImg: GreekStyle,
-    ItemName: "Greek-Style Pizza",
+    ItemName: "Pizza estilo griego",
     ItemIngredients:
-      "White cheddar, sauce, tomato paste, bread flour, red pepper flakes.",
+      "Queso cheddar blanco, salsa, pasta de tomate, harina de pan, hojuelas de pimiento rojo.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -714,7 +714,7 @@ export const products = [
     id: "pizza-romana",
     ItemImg: PizzaRomana,
     ItemName: "Pizza Romana",
-    ItemIngredients: "Fresh mozzarella, bread flour, tomato, olive oil, yeast",
+    ItemIngredients: "Mozzarella fresca, harina de pan, tomate, aceite de oliva, levadura.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -733,9 +733,9 @@ export const products = [
   {
     id: "extra-cheese-pizza",
     ItemImg: ExtraCheesePizza,
-    ItemName: "Extra Cheese Pizza",
+    ItemName: "Pizza extra de queso",
     ItemIngredients:
-      "Homemade pizza sauce, fresh mozzarella cheese, mozzarella cheese, parmesan cheese, olive oil",
+      "Salsa de pizza casera, queso mozzarella fresco, queso mozzarella, queso parmesano, aceite de oliva.",
     ItemPrice: (5).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -755,9 +755,9 @@ export const products = [
   {
     id: "veggie-pizza-second",
     ItemImg: VeggiePizza,
-    ItemName: "Veggie Pizza",
+    ItemName: "Pizza vegetariana",
     ItemIngredients:
-      "Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.",
+      "Salsa para pizza, cebolla, pimiento, piña, jengibre, salsa picante, cilantro, salsa de ajo, salsa de mantequilla, queso.",
     ItemPrice: (9).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -776,9 +776,9 @@ export const products = [
   {
     id: "pepperoni-pizza-second",
     ItemImg: PepperoniPizza,
-    ItemName: "Pepperoni Pizza",
+    ItemName: "Pizza de peperoni",
     ItemIngredients:
-      "Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.",
+      "Masa de pizza: levadura, pepperoni, pasta de tomate, queso mozzarella, azúcar.",
     ItemPrice: (5).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -797,9 +797,9 @@ export const products = [
   {
     id: "meat-pizza-second",
     ItemImg: MeatPizza,
-    ItemName: "Meat Pizza",
+    ItemName: "pizza de carne",
     ItemIngredients:
-      "Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.",
+      "Salchicha, masa de pizza, tocino, salsa de pizza, hojuelas de pimiento rojo.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -818,9 +818,9 @@ export const products = [
   {
     id: "margherita-pizza-second",
     ItemImg: MargheritaPizza,
-    ItemName: "Margherita Pizza",
+    ItemName: "Pizza margarita",
     ItemIngredients:
-      "Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.",
+      "Masa de pizza, salsa de tomate, mozzarella fresca, aceite de oliva, hojas de albahaca.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -839,9 +839,9 @@ export const products = [
   {
     id: "bbq-chicken-pizza-second",
     ItemImg: BBQPizza,
-    ItemName: "BBQ Chicken Pizza",
+    ItemName: "Pizza de pollo a la barbacoa",
     ItemIngredients:
-      "Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.",
+      "Pollo rostizado, masa de pizza, salsa barbacoa, queso cheddar ahumado, queso mozzarella.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -861,7 +861,7 @@ export const products = [
     id: "alla-pala-pizza-second",
     ItemImg: AllaPalla,
     ItemName: "Pizza alla pala",
-    ItemIngredients: "Cheese, cherry tomatoes, arugula, olive oil, yeast.",
+    ItemIngredients: "Queso, tomates cherry, rúcula, aceite de oliva, levadura.",
     ItemPrice: (12).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -880,9 +880,9 @@ export const products = [
   {
     id: "prosciutto-e-funghi-pizza-second",
     ItemImg: Prosciutto,
-    ItemName: "Prosciutto e Funghi Pizza",
+    ItemName: "Pizza con jamón y hongos",
     ItemIngredients:
-      "Italian sausage meat, truffle oil, pizza dough, san marzano tomatoes, bocconcini cheese.",
+      "Carne de salchicha italiana, aceite de trufa, masa de pizza, tomates san marzano, queso bocconcini.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -901,9 +901,9 @@ export const products = [
   {
     id: "detroit-style-pizza-second",
     ItemImg: DetroitStyle,
-    ItemName: "Detroit-Style Pizza",
+    ItemName: "Pizza estilo Detroit",
     ItemIngredients:
-      "Pizza dough, pizza sauce, brick cheese, rapid rise yeast, olive oil.",
+      "Masa de pizza, salsa de pizza, queso brick, levadura de fermentación rápida, aceite de oliva.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -922,9 +922,9 @@ export const products = [
   {
     id: "garlic-fingers-second",
     ItemImg: GarlicFingers,
-    ItemName: "Garlic Fingers",
+    ItemName: "Dedos de ajo",
     ItemIngredients:
-      "Bread flour, mozzarella cheese, butter, olive oil, instant yeast.",
+      "Harina de pan, queso mozzarella, mantequilla, aceite de oliva, levadura instantánea.",
     ItemPrice: (7).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -943,9 +943,9 @@ export const products = [
   {
     id: "st-ouis-style-pizza-second",
     ItemImg: StLous,
-    ItemName: "St. Louis-Style Pizza",
+    ItemName: "Pizza al estilo de San Luis",
     ItemIngredients:
-      "Liquid smoke, swiss cheese, white cheddar cheese, light corn syrup, pizza sauce.",
+      "Humo líquido, queso suizo, queso cheddar blanco, jarabe de maíz ligero, salsa de pizza.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -964,8 +964,8 @@ export const products = [
   {
     id: "rustica-pizza-second",
     ItemImg: Rustica,
-    ItemName: "Pizza Rustica",
-    ItemIngredients: "Prosciutto, pepperoni, mozzarella, crust, eggs.",
+    ItemName: "Pizza Rústica",
+    ItemIngredients: "Jamón, pepperoni, mozzarella, corteza, huevos.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -984,9 +984,9 @@ export const products = [
   {
     id: "pesto-genovese-pizza-second",
     ItemImg: Genovese,
-    ItemName: "Pizza pesto Genovese",
+    ItemName: "Pizza al pesto genovés",
     ItemIngredients:
-      "Pine nuts, baby potatoes, snow pea shoots, lemon, buffalo mozzarella.",
+      "Piñones, patatas baby, brotes de guisantes, limón, mozzarella de búfala.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1005,8 +1005,8 @@ export const products = [
   {
     id: "e-fichi-pizza-second",
     ItemImg: Efichi,
-    ItemName: "Pizza e fichi",
-    ItemIngredients: "Coconut flour, truffle oil, fig jam, cheese, prosciutto.",
+    ItemName: "Pizza y Fichi",
+    ItemIngredients: "Harina de coco, aceite de trufa, mermelada de higos, queso, prosciutto.",
     ItemPrice: (12).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1027,7 +1027,7 @@ export const products = [
     ItemImg: Apizza,
     ItemName: "Apizza",
     ItemIngredients:
-      "Ricotta cheese, tomato sauce, fresh basil pesto, fresh mozzarella cheese, semolina flour.",
+      "Queso ricotta, salsa de tomate, pesto de albahaca fresca, queso mozzarella fresco, harina de sémola.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1046,9 +1046,9 @@ export const products = [
   {
     id: "stuffed-pizza-second",
     ItemImg: StuffedPizza,
-    ItemName: "Stuffed Pizza",
+    ItemName: "Pizza Rellena",
     ItemIngredients:
-      "Hot italian sausage, sweet italian sausage, pizza dough, red pepper flakes, olive oil.",
+      "Salchicha italiana picante, salchicha italiana dulce, masa de pizza, hojuelas de pimiento rojo, aceite de oliva.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1067,9 +1067,9 @@ export const products = [
   {
     id: "pugliese-pizza-second",
     ItemImg: Pugliese,
-    ItemName: "Pugliese Pizza",
+    ItemName: "Pizza Pugliese",
     ItemIngredients:
-      "Sloppy joe, banana peppers, ground beef, pizza dough, ricotta cheese.",
+      "Sloppy Joe, pimientos morrones, carne molida, masa de pizza, queso ricotta.",
     ItemPrice: (9).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1088,9 +1088,9 @@ export const products = [
   {
     id: "tomato-pie-second",
     ItemImg: TomatoPie,
-    ItemName: "Tomato Pie",
+    ItemName: "pastel de tomate",
     ItemIngredients:
-      "Pizza dough, san marzano, red pepper flakes, pizza stone, olive oil.",
+      "Masa de pizza, san marzano, hojuelas de pimiento rojo, piedra para pizza, aceite de oliva.",
     ItemPrice: (15).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1110,7 +1110,7 @@ export const products = [
     id: "fugazza-second",
     ItemImg: Fugaza,
     ItemName: "Fugazza",
-    ItemIngredients: "Mozzarella cheese, sugar, dry yeast, all purpose flour.",
+    ItemIngredients: "Queso mozzarella, azúcar, levadura seca, harina común.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1129,9 +1129,9 @@ export const products = [
   {
     id: "fiori-di-zucca-second",
     ItemImg: DiZucca,
-    ItemName: "Pizza fiori di zucca",
+    ItemName: "Pizza con flores de calabacín",
     ItemIngredients:
-      "Zucchini blossoms, pizza dough, buffalo mozzarella, olive oil.",
+      "Flores de calabacín, masa de pizza, mozzarella de búfala, aceite de oliva.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1152,7 +1152,7 @@ export const products = [
     ItemImg: Fugazeta,
     ItemName: "Fugazzeta",
     ItemIngredients:
-      "Feta cheese, mozzarella cheese, parmesan cheese, olive oil, yeast.",
+      "Queso feta, queso mozzarella, queso parmesano, aceite de oliva, levadura.",
     ItemPrice: (9).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1173,7 +1173,7 @@ export const products = [
     ItemImg: Carbonara,
     ItemName: "Pizza Carbonara",
     ItemIngredients:
-      "Refrigerated pizza crust, monterey jack cheese, parmesan cheese, butter, chicken bouillon.",
+      "Masa de pizza refrigerada, queso monterey jack, queso parmesano, mantequilla, caldo de pollo.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1192,9 +1192,9 @@ export const products = [
   {
     id: "grandma-pie-second",
     ItemImg: GranmaPie,
-    ItemName: "Grandma Pie",
+    ItemName: "Pastel de abuela",
     ItemIngredients:
-      "Dark brown sugar, san marzano tomatoes, tomato paste, bread flour, red pepper flakes.",
+      "Azúcar moreno oscuro, tomates san marzano, pasta de tomate, harina de pan, hojuelas de pimiento rojo.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1215,7 +1215,7 @@ export const products = [
     ItemImg: Padellino,
     ItemName: "Pizza al padellino",
     ItemIngredients:
-      "Mozzarella cheese, prosciutto di parma, dough, baby arugula, black pepper",
+      "Queso mozzarella, prosciutto di parma, masa, rúcula baby, pimienta negra.",
     ItemPrice: (10).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1234,9 +1234,9 @@ export const products = [
   {
     id: "california-style-pizza-second",
     ItemImg: CaliforniaStyle,
-    ItemName: "California-Style Pizza",
+    ItemName: "Pizza estilo California",
     ItemIngredients:
-      "Feta cheese, marinated artichoke hearts, pizza crust, red bell pepper, red onion.",
+      "Queso feta, corazones de alcachofa marinados, masa de pizza, pimiento rojo, cebolla roja.",
     ItemPrice: (15).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1257,7 +1257,7 @@ export const products = [
     ItemImg: Fritta,
     ItemName: "Pizza fritta",
     ItemIngredients:
-      "Ricotta cheese, tomato sauce, tipo 00, neapolitan pizza base, mozzarella cheese.",
+      "Queso ricotta, salsa de tomate tipo 00, base de pizza napolitana, queso mozzarella.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1278,7 +1278,7 @@ export const products = [
     ItemImg: Romana,
     ItemName: "Pinsa romana",
     ItemIngredients:
-      "Rice flour, olive oil, plain flour, sea salt, dried yeast.",
+      "Harina de arroz, aceite de oliva, harina común, sal marina, levadura seca.",
     ItemPrice: (5).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1297,9 +1297,9 @@ export const products = [
   {
     id: "chicago-thin-crust-pizza-second",
     ItemImg: ThinCrust,
-    ItemName: "Chicago Thin Crust Pizza",
+    ItemName: "Pizza de masa fina estilo Chicago",
     ItemIngredients:
-      "Sweet italian sausage, semolina flour, pizza sauce, giardiniera, sugar.",
+      "Salchicha italiana dulce, harina de sémola, salsa para pizza, giardiniera, azúcar.",
     ItemPrice: (13).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1318,9 +1318,9 @@ export const products = [
   {
     id: "greek-style-pizza-second",
     ItemImg: GreekStyle,
-    ItemName: "Greek-Style Pizza",
+    ItemName: "Pizza estilo griego",
     ItemIngredients:
-      "White cheddar, sauce, tomato paste, bread flour, red pepper flakes.",
+      "Queso cheddar blanco, salsa, pasta de tomate, harina de pan, hojuelas de pimiento rojo.",
     ItemPrice: (8).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1340,7 +1340,7 @@ export const products = [
     id: "pizza-romana-second",
     ItemImg: PizzaRomana,
     ItemName: "Pizza Romana",
-    ItemIngredients: "Fresh mozzarella, bread flour, tomato, olive oil, yeast",
+    ItemIngredients: "Mozzarella fresca, harina de pan, tomate, aceite de oliva, levadura.",
     ItemPrice: (11).toFixed(2),
     Category: "Pizza",
     attributes: [
@@ -1359,9 +1359,9 @@ export const products = [
   {
     id: "chicken-alfredo",
     ItemImg: ChickenAlfredo,
-    ItemName: "Chicken Alfredo",
+    ItemName: "Pollo AnaMar",
     ItemIngredients:
-      "Skinless chicken breast, heavy cream, olive oil, parmigiano reggiano, black pepper.",
+      "Pechuga de pollo sin piel, crema espesa, aceite de oliva, parmigiano reggiano, pimienta negra.",
     ItemPrice: (2).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1369,9 +1369,9 @@ export const products = [
   {
     id: "pasta-alla-gricia",
     ItemImg: AllaGricia,
-    ItemName: "Pasta Alla Gricia",
+    ItemName: "Pasta a la griega",
     ItemIngredients:
-      "Rigatoni pasta, pancetta, olive oil, pecorino romano, black pepper.",
+      "Pasta rigatoni, panceta, aceite de oliva, pecorino romano, pimienta negra.",
     ItemPrice: (9).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1379,9 +1379,9 @@ export const products = [
   {
     id: "sheet-pan-burrata-caprese-gnocchi",
     ItemImg: SheetPan,
-    ItemName: "Sheet-Pan Burrata Caprese Gnocchi",
+    ItemName: "Ñoquis caprese con burrata al horno",
     ItemIngredients:
-      "Penne pasta, sour cream, rotisserie chicken, cherry tomatoes, curly kale.",
+      "Pasta penne, crema agria, pollo rostizado, tomates cherry, col rizada.",
     ItemPrice: (5).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1389,9 +1389,9 @@ export const products = [
   {
     id: "penne-alla-vodka",
     ItemImg: AllaVodka,
-    ItemName: "Penne Alla Vodka",
+    ItemName: "Penne al vodka",
     ItemIngredients:
-      "Tomato sauce, penne, heavy cream, red pepper flakes, butter.",
+      "Salsa de tomate, penne, crema espesa, hojuelas de pimiento rojo, mantequilla.",
     ItemPrice: (10).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1399,9 +1399,9 @@ export const products = [
   {
     id: "baked-spaghetti",
     ItemImg: BakedSpaghetti,
-    ItemName: "Baked Spaghetti",
+    ItemName: "Espaguetis al horno",
     ItemIngredients:
-      "Ground beef, spaghetti, olive oil, crushed tomatoes, basil.",
+      "Carne molida, espaguetis, aceite de oliva, tomates triturados, albahaca.",
     ItemPrice: (8).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1409,9 +1409,9 @@ export const products = [
   {
     id: "cacio-e-pepe-potato-gnocchi",
     ItemImg: PotatoGnocchi,
-    ItemName: "Cacio e Pepe Potato Gnocchi",
+    ItemName: "Ñoquis de patata con cacio y pepe",
     ItemIngredients:
-      "Green beans, potato gnocchi, green peas, pecorino romano cheese, black pepper.",
+      "Judías verdes, ñoquis de patata, guisantes, queso pecorino romano, pimienta negra.",
     ItemPrice: (10).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1419,9 +1419,9 @@ export const products = [
   {
     id: "ultimate-baked-ziti",
     ItemImg: BakedZiti,
-    ItemName: "Ultimate Baked Ziti",
+    ItemName: "El mejor ziti al horno",
     ItemIngredients:
-      "Bulk italian sausage, ricotta cheese, tomato sauce, red pepper flakes, mozzarella cheese.",
+      "Salchicha italiana a granel, queso ricotta, salsa de tomate, hojuelas de pimiento rojo, queso mozzarella.",
     ItemPrice: (12).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1429,8 +1429,8 @@ export const products = [
   {
     id: "cacio-e-pepe",
     ItemImg: CacioPepe,
-    ItemName: "Cacio e Pepe",
-    ItemIngredients: "Spaghetti, parmesan, butter, black pepper.",
+    ItemName: "Cacio y Pepe",
+    ItemIngredients: "Espaguetis, parmesano, mantequilla, pimienta negra.",
     ItemPrice: (8).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1440,7 +1440,7 @@ export const products = [
     ItemImg: PastaPuttanesca,
     ItemName: "Pasta Puttanesca",
     ItemIngredients:
-      "Spaghetti, kalamata olives, red pepper flakes, capers, diced tomatoes.",
+      "Espaguetis, aceitunas kalamata, hojuelas de pimiento rojo, alcaparras, tomates cortados en cubitos.",
     ItemPrice: (11).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1448,9 +1448,9 @@ export const products = [
   {
     id: "italian-pasta-salad",
     ItemImg: ItalianPastaSalad,
-    ItemName: "Italian Pasta Salad",
+    ItemName: "Ensalada De Pasta Italiana",
     ItemIngredients:
-      "Bell peppers, fresh mozzarella pearls, honey, dijon mustard, rotini.",
+      "Pimientos morrones, perlas de mozzarella fresca, miel, mostaza de Dijon, rotini.",
     ItemPrice: (7).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1458,9 +1458,9 @@ export const products = [
   {
     id: "lasagna-roll-ups",
     ItemImg: Lasagna,
-    ItemName: "Lasagna Roll Ups",
+    ItemName: "Rollitos de lasaña",
     ItemIngredients:
-      "Ricotta cheese, lasagna noodles, homemade marinara sauce, frozen spinach, parmesan cheese.",
+      "Queso ricotta, fideos de lasaña, salsa marinara casera, espinacas congeladas, queso parmesano.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1468,9 +1468,9 @@ export const products = [
   {
     id: "toasted-ravioli",
     ItemImg: ToastedRavioli,
-    ItemName: "Toasted Ravioli",
+    ItemName: "Raviolis tostados",
     ItemIngredients:
-      "Frozen cheese ravioli, jar spaghetti sauce, bread crumbs, parmesan cheese, egg.",
+      "Raviolis de queso congelados, salsa de espagueti en tarro, pan rallado, queso parmesano, huevo.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1478,9 +1478,9 @@ export const products = [
   {
     id: "orecchiette-with-broccoli-rabe",
     ItemImg: OrecchietteBroccoli,
-    ItemName: "Orecchiette with Broccoli Rabe",
+    ItemName: "Orecchiette con brócoli rabe",
     ItemIngredients:
-      "Broccoli rabe, andouille sausage links, orecchiette, lemon, red pepper flakes.",
+      "Brócoli rabe, salchicha andouille, orecchiette, limón y hojuelas de pimiento rojo.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1488,9 +1488,9 @@ export const products = [
   {
     id: "lamb-ragu",
     ItemImg: LambRagu,
-    ItemName: "Lamb Ragù",
+    ItemName: "Ragú de cordero",
     ItemIngredients:
-      "Lamb shoulder, gnocchi, red wine, heavy cream, tomato paste.",
+      "Paleta de cordero, ñoquis, vino tinto, nata espesa, pasta de tomate.",
     ItemPrice: (12).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1498,9 +1498,9 @@ export const products = [
   {
     id: "lasagna-bolognese",
     ItemImg: LasagnaBolognese,
-    ItemName: "Lasagna Bolognese",
+    ItemName: "Lasaña a la boloñesa",
     ItemIngredients:
-      "Ground italian sausage, ground beef, ground pork, bolognese sauce, lasagna noodles.",
+      "Salchicha italiana molida, carne molida de res, carne molida de cerdo, salsa boloñesa, fideos de lasaña.",
     ItemPrice: (11).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1508,8 +1508,8 @@ export const products = [
   {
     id: "lemon-ricotta-pasta",
     ItemImg: LemonRicotta,
-    ItemName: "Lemon Ricotta Pasta",
-    ItemIngredients: "Spaghetti, ricotta, lemon, red pepper flakes, parmesan.",
+    ItemName: "Pasta de ricota y limón",
+    ItemIngredients: "Espaguetis, ricotta, limón, hojuelas de pimiento rojo, parmesano.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1517,9 +1517,9 @@ export const products = [
   {
     id: "stuffed-rigatoni",
     ItemImg: StuffedRigatoni,
-    ItemName: "Stuffed Rigatoni",
+    ItemName: "Rigatoni Rellenos",
     ItemIngredients:
-      "Ground turkey, rigatoni pasta, red pepper, mozzarella, parmesan.",
+      "Pavo molido, pasta rigatoni, pimiento rojo, mozzarella, parmesano.",
     ItemPrice: (9).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1527,9 +1527,9 @@ export const products = [
   {
     id: "five-cheese-ziti-al-forno",
     ItemImg: FiveCheese,
-    ItemName: "Five-Cheese Ziti Al Forno",
+    ItemName: "Ziti al horno con cinco quesos",
     ItemIngredients:
-      "Alfredo sauce, ricotta cheese, ziti pasta, marinara sauce, fontina cheese.",
+      "Salsa alfredo, queso ricotta, pasta ziti, salsa marinara, queso fontina.",
     ItemPrice: (15).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1537,9 +1537,9 @@ export const products = [
   {
     id: "chicken-florentine-pasta",
     ItemImg: ChickenFlorentine,
-    ItemName: "Chicken Florentine Pasta",
+    ItemName: "Pasta florentina con pollo",
     ItemIngredients:
-      "Skinless chicken breasts, linguine pasta, chicken broth, butter, baby spinach.",
+      "Pechugas de pollo sin piel, pasta linguini, caldo de pollo, mantequilla, espinacas baby.",
     ItemPrice: (10).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1547,9 +1547,9 @@ export const products = [
   {
     id: "italian-mac-and-cheese",
     ItemImg: MacCheese,
-    ItemName: "Italian Mac and Cheese",
+    ItemName: "Mac y queso italiano",
     ItemIngredients:
-      "Italian sausage, pasta, cheese sauce, cream, baby spinach.",
+      "Salchicha italiana, pasta, salsa de queso, crema, espinacas baby.",
     ItemPrice: (8).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1557,9 +1557,9 @@ export const products = [
   {
     id: "chicken-alfredo-second",
     ItemImg: ChickenAlfredo,
-    ItemName: "Chicken Alfredo",
+    ItemName: "Chicken AnaMar",
     ItemIngredients:
-      "Skinless chicken breast, heavy cream, olive oil, parmigiano reggiano, black pepper.",
+      "Pechuga de pollo sin piel, crema espesa, aceite de oliva, parmigiano reggiano, pimienta negra.",
     ItemPrice: (2).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1567,9 +1567,9 @@ export const products = [
   {
     id: "pasta-alla-gricia-second",
     ItemImg: AllaGricia,
-    ItemName: "Pasta Alla Gricia",
+    ItemName: "Pasta a la griega",
     ItemIngredients:
-      "Rigatoni pasta, pancetta, olive oil, pecorino romano, black pepper.",
+      "Pasta rigatoni, panceta, aceite de oliva, pecorino romano, pimienta negra.",
     ItemPrice: (9).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1577,9 +1577,9 @@ export const products = [
   {
     id: "sheet-pan-burrata-caprese-gnocchi-second",
     ItemImg: SheetPan,
-    ItemName: "Sheet-Pan Burrata Caprese Gnocchi",
+    ItemName: "Ñoquis caprese con burrata al horno",
     ItemIngredients:
-      "Penne pasta, sour cream, rotisserie chicken, cherry tomatoes, curly kale.",
+      "Pasta penne, crema agria, pollo rostizado, tomates cherry, col rizada.",
     ItemPrice: (5).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1587,9 +1587,9 @@ export const products = [
   {
     id: "penne-alla-vodka-second",
     ItemImg: AllaVodka,
-    ItemName: "Penne Alla Vodka",
+    ItemName: "Penne al vodka",
     ItemIngredients:
-      "Tomato sauce, penne, heavy cream, red pepper flakes, butter.",
+      "Salsa de tomate, penne, crema espesa, hojuelas de pimiento rojo, mantequilla.",
     ItemPrice: (10).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1597,9 +1597,9 @@ export const products = [
   {
     id: "baked-spaghetti-second",
     ItemImg: BakedSpaghetti,
-    ItemName: "Baked Spaghetti",
+    ItemName: "Espaguetis al horno",
     ItemIngredients:
-      "Ground beef, spaghetti, olive oil, crushed tomatoes, basil.",
+      "Carne molida, espaguetis, aceite de oliva, tomates triturados, albahaca.",
     ItemPrice: (8).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1607,9 +1607,9 @@ export const products = [
   {
     id: "cacio-e-pepe-potato-gnocchi-second",
     ItemImg: PotatoGnocchi,
-    ItemName: "Cacio e Pepe Potato Gnocchi",
+    ItemName: "Ñoquis de patata con cacio y pepe",
     ItemIngredients:
-      "Green beans, potato gnocchi, green peas, pecorino romano cheese, black pepper.",
+      "Judías verdes, ñoquis de patata, guisantes, queso pecorino romano, pimienta negra.",
     ItemPrice: (10).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1617,9 +1617,9 @@ export const products = [
   {
     id: "ultimate-baked-ziti-second",
     ItemImg: BakedZiti,
-    ItemName: "Ultimate Baked Ziti",
+    ItemName: "El mejor ziti al horno",
     ItemIngredients:
-      "Bulk italian sausage, ricotta cheese, tomato sauce, red pepper flakes, mozzarella cheese.",
+      "Salchicha italiana a granel, queso ricotta, salsa de tomate, hojuelas de pimiento rojo, queso mozzarella.",
     ItemPrice: (12).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1627,8 +1627,8 @@ export const products = [
   {
     id: "cacio-e-pepe-second",
     ItemImg: CacioPepe,
-    ItemName: "Cacio e Pepe",
-    ItemIngredients: "Spaghetti, parmesan, butter, black pepper.",
+    ItemName: "Cacio y Pepe",
+    ItemIngredients: "Espaguetis, parmesano, mantequilla, pimienta negra.",
     ItemPrice: (8).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1638,7 +1638,7 @@ export const products = [
     ItemImg: PastaPuttanesca,
     ItemName: "Pasta Puttanesca",
     ItemIngredients:
-      "Spaghetti, kalamata olives, red pepper flakes, capers, diced tomatoes.",
+      "Espaguetis, aceitunas kalamata, hojuelas de pimiento rojo, alcaparras, tomates cortados en cubitos.",
     ItemPrice: (11).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1646,9 +1646,9 @@ export const products = [
   {
     id: "italian-pasta-salad-second",
     ItemImg: ItalianPastaSalad,
-    ItemName: "Italian Pasta Salad",
+    ItemName: "Ensalada De Pasta Italiana",
     ItemIngredients:
-      "Bell peppers, fresh mozzarella pearls, honey, dijon mustard, rotini.",
+      "Pimientos morrones, perlas de mozzarella fresca, miel, mostaza de Dijon, rotini.",
     ItemPrice: (7).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1656,9 +1656,9 @@ export const products = [
   {
     id: "lasagna-roll-ups-second",
     ItemImg: Lasagna,
-    ItemName: "Lasagna Roll Ups",
+    ItemName: "Rollitos de lasaña",
     ItemIngredients:
-      "Ricotta cheese, lasagna noodles, homemade marinara sauce, frozen spinach, parmesan cheese.",
+      "Queso ricotta, fideos de lasaña, salsa marinara casera, espinacas congeladas, queso parmesano.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1666,9 +1666,9 @@ export const products = [
   {
     id: "toasted-ravioli-second",
     ItemImg: ToastedRavioli,
-    ItemName: "Toasted Ravioli",
+    ItemName: "Raviolis tostados",
     ItemIngredients:
-      "Frozen cheese ravioli, jar spaghetti sauce, bread crumbs, parmesan cheese, egg.",
+      "Raviolis de queso congelados, salsa de espagueti en tarro, pan rallado, queso parmesano, huevo.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1676,9 +1676,9 @@ export const products = [
   {
     id: "orecchiette-with-broccoli-rabe-second",
     ItemImg: OrecchietteBroccoli,
-    ItemName: "Orecchiette with Broccoli Rabe",
+    ItemName: "Orecchiette con brócoli rabe",
     ItemIngredients:
-      "Broccoli rabe, andouille sausage links, orecchiette, lemon, red pepper flakes.",
+      "Brócoli rabe, salchicha andouille, orecchiette, limón y hojuelas de pimiento rojo.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1686,9 +1686,9 @@ export const products = [
   {
     id: "lamb-ragu-second",
     ItemImg: LambRagu,
-    ItemName: "Lamb Ragù",
+    ItemName: "Ragú de cordero",
     ItemIngredients:
-      "Lamb shoulder, gnocchi, red wine, heavy cream, tomato paste.",
+      "Paleta de cordero, ñoquis, vino tinto, nata espesa, pasta de tomate.",
     ItemPrice: (12).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1696,9 +1696,9 @@ export const products = [
   {
     id: "lasagna-bolognese-second",
     ItemImg: LasagnaBolognese,
-    ItemName: "Lasagna Bolognese",
+    ItemName: "Lasaña a la boloñesa",
     ItemIngredients:
-      "Ground italian sausage, ground beef, ground pork, bolognese sauce, lasagna noodles.",
+      "Salchicha italiana molida, carne molida de res, carne molida de cerdo, salsa boloñesa, fideos de lasaña.",
     ItemPrice: (11).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1706,8 +1706,8 @@ export const products = [
   {
     id: "lemon-ricotta-pasta-second",
     ItemImg: LemonRicotta,
-    ItemName: "Lemon Ricotta Pasta",
-    ItemIngredients: "Spaghetti, ricotta, lemon, red pepper flakes, parmesan.",
+    ItemName: "Pasta de ricota y limón",
+    ItemIngredients: "Espaguetis, ricotta, limón, hojuelas de pimiento rojo, parmesano.",
     ItemPrice: (13).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1715,9 +1715,9 @@ export const products = [
   {
     id: "stuffed-rigatoni-second",
     ItemImg: StuffedRigatoni,
-    ItemName: "Stuffed Rigatoni",
+    ItemName: "Rigatoni Rellenos",
     ItemIngredients:
-      "Ground turkey, rigatoni pasta, red pepper, mozzarella, parmesan.",
+      "Pavo molido, pasta rigatoni, pimiento rojo, mozzarella, parmesano.",
     ItemPrice: (9).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1725,9 +1725,9 @@ export const products = [
   {
     id: "five-cheese-ziti-al-forno-second",
     ItemImg: FiveCheese,
-    ItemName: "Five-Cheese Ziti Al Forno",
+    ItemName: "Ziti al horno con cinco quesos",
     ItemIngredients:
-      "Alfredo sauce, ricotta cheese, ziti pasta, marinara sauce, fontina cheese.",
+      "Salsa alfredo, queso ricotta, pasta ziti, salsa marinara, queso fontina.",
     ItemPrice: (15).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1735,9 +1735,9 @@ export const products = [
   {
     id: "chicken-florentine-pasta-second",
     ItemImg: ChickenFlorentine,
-    ItemName: "Chicken Florentine Pasta",
+    ItemName: "Pasta florentina con pollo",
     ItemIngredients:
-      "Skinless chicken breasts, linguine pasta, chicken broth, butter, baby spinach.",
+      "Pechugas de pollo sin piel, pasta linguini, caldo de pollo, mantequilla, espinacas baby.",
     ItemPrice: (10).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1745,9 +1745,9 @@ export const products = [
   {
     id: "italian-mac-and-cheese-second",
     ItemImg: MacCheese,
-    ItemName: "Italian Mac and Cheese",
+    ItemName: "Mac y queso italiano",
     ItemIngredients:
-      "Italian sausage, pasta, cheese sauce, cream, baby spinach.",
+      "Salchicha italiana, pasta, salsa de queso, crema, espinacas baby.",
     ItemPrice: (8).toFixed(2),
     Category: "Pasta",
     attributes: [],
@@ -1755,9 +1755,9 @@ export const products = [
   {
     id: "salmon-poke",
     ItemImg: SalmonPoke,
-    ItemName: "Salmon Poke",
+    ItemName: "Poke De Salmón",
     ItemIngredients:
-      "Salmon, Avocado, Rice, Cabbage, Carrots, Creen onions, Sesame.",
+      "Salmón, aguacate, arroz, repollo, zanahorias, cebollas verdes, sésamo.",
     ItemPrice: (10).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1766,9 +1766,9 @@ export const products = [
   {
     id: "veggie-poke",
     ItemImg: VeggiePoke,
-    ItemName: "Veggie Poke",
+    ItemName: "Poke vegetariano",
     ItemIngredients:
-      "Rice, Avocado, Cabage, Carrot, Ginger, Green Onion, Sesam.",
+      "Arroz, aguacate, repollo, zanahoria, jengibre, cebolla verde, sésamo.",
     ItemPrice: (8).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1776,9 +1776,9 @@ export const products = [
   {
     id: "mini-salmon-set-22-pcs",
     ItemImg: MiniSalmon,
-    ItemName: "Mini Salmon Set - 22Pcs",
+    ItemName: "Mini juego de salmón - 22 piezas",
     ItemIngredients:
-      "Double Salmon Roll,Californication, Salmon Nigiri - 2Pcs, Eel Nigiri - 2Pcs,Vulcan Gunkan - 2Pcs",
+      "Rollo doble de salmón, Californication, Nigiri de salmón (2 piezas), Nigiri de anguila (2 piezas), Vulcan Gunkan (2 piezas)",
     ItemPrice: (35).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1786,9 +1786,9 @@ export const products = [
   {
     id: "the-bull-of-ombos-set-32-pcs",
     ItemImg: OmbosSeth,
-    ItemName: "The Bull of Ombos Set - 32 Pcs",
+    ItemName: "Set El Toro de Ombos - 32 piezas",
     ItemIngredients:
-      "Double Salmon Roll, Sunny Philadelphia, Salmon Maki Raki, Cucumber Maki Raki.",
+      "Rollo doble de salmón, Sunny Philadelphia, Maki Raki de salmón, Maki Raki de pepino.",
     ItemPrice: (30).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1796,9 +1796,9 @@ export const products = [
   {
     id: "veggie-set-32-pcs",
     ItemImg: VeggieSet,
-    ItemName: "Veggie Set 32Pcs",
+    ItemName: "Juego de verduras de 32 piezas",
     ItemIngredients:
-      "Very Veggie Roll, Very Veggie Maki, Cucumber Maki Raki, Avocado Maki Raki.",
+      "Rollo muy vegetariano, maki muy vegetariano, maki raki de pepino, maki raki de aguacate.",
     ItemPrice: (16).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1806,9 +1806,9 @@ export const products = [
   {
     id: "friendly-set-40-pcs",
     ItemImg: FriendlySet,
-    ItemName: "Friendly Set 40Pcs",
+    ItemName: "Juego amigable 40 piezas",
     ItemIngredients:
-      "Californication, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Cucumber Maki Raki.",
+      "Rollo de Salmón Picante, Rollo de Aguila delicioso, Rollo de Cangrejo, Maki Raki de Pepino.",
     ItemPrice: (30).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1816,8 +1816,8 @@ export const products = [
   {
     id: "sunny-philadelphia-roll-8-pcs",
     ItemImg: SunnyPhiladelphia,
-    ItemName: "Sunny Philadelphia Roll 8Pcs",
-    ItemIngredients: "Salmon, cream cheese, avocado, rice, sesame, nori.",
+    ItemName: "Rollo Filadelfia soleado 8 piezas",
+    ItemIngredients: "Salmón, queso crema, aguacate, arroz, sésamo, nori.",
     ItemPrice: (12).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1825,9 +1825,9 @@ export const products = [
   {
     id: "hidden-dragon-roll-8-pcs",
     ItemImg: HiddenDragon,
-    ItemName: "Hidden Dragon Roll 8Pcs",
+    ItemName: "Rollo de dragón oculto, 8 piezas",
     ItemIngredients:
-      "Salmon, cream cheese, avocado, tobiko, rice, sesame, cucumber, nori.",
+      "Salmón, queso crema, aguacate, tobiko, arroz, sésamo, pepino, nori.",
     ItemPrice: (13).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1835,9 +1835,9 @@ export const products = [
   {
     id: "double-salmon-roll-8-pcs",
     ItemImg: DoubleSalmon,
-    ItemName: "Double Salmon Roll 8Pcs",
+    ItemName: "Rollo de salmón doble 8 piezas",
     ItemIngredients:
-      "Salmon, Cream Cheese, Avocado, Sesame, Extra Salmon Slice, Cucumber, Rice, nori.",
+      "Salmón, queso crema, aguacate, sésamo, rodaja de salmón extra, pepino, arroz, nori.",
     ItemPrice: (14).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1845,9 +1845,9 @@ export const products = [
   {
     id: "the-hottest-taisho",
     ItemImg: HottestTaisho,
-    ItemName: "The Hottest Taisho",
+    ItemName: "El Taisho más caliente",
     ItemIngredients:
-      "Salmon, Cream Cheese, Avocado, Cucumber, Rice - all comes with your chosen sauce.",
+      "Salmón, queso crema, aguacate, pepino, arroz: todo viene con la salsa elegida.",
     ItemPrice: (12).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1855,8 +1855,8 @@ export const products = [
   {
     id: "burning-taisho",
     ItemImg: BurningTaisho,
-    ItemName: "Burning Taisho",
-    ItemIngredients: "Salmon, Avocado, Rice, Cucumber, Cream Cheese.",
+    ItemName: "Taisho ardiente",
+    ItemIngredients: "Salmón, aguacate, arroz, pepino, queso crema.",
     ItemPrice: (10).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1864,9 +1864,9 @@ export const products = [
   {
     id: "blissful-eel-roll-8-pcs",
     ItemImg: BlissfulEel,
-    ItemName: "Blissful Eel Roll 8Pcs",
+    ItemName: "Rollo de anguila feliz 8 piezas",
     ItemIngredients:
-      "Eel kinda blissful, Cream Cheese, Avocado, Tobico, Sesame, Rice, Nori.",
+      "Anguila dichosa, queso crema, aguacate, tobico, sésamo, arroz, nori.",
     ItemPrice: (14).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1874,9 +1874,9 @@ export const products = [
   {
     id: "sebastian-the-crab-roll-8-pcs",
     ItemImg: Sebastian,
-    ItemName: "Sebastian the Crab Roll 8Pcs",
+    ItemName: "Rollo de cangrejo Sebastián 8 piezas",
     ItemIngredients:
-      "Crab with Unique Sauce, Cream Cheese, Avocado, Dried Tuna Flakes, Sesame, Cucumber Rice, Nori.",
+      "Cangrejo con salsa única, queso crema, aguacate, hojuelas de atún seco, sésamo, arroz de pepino, nori.",
     ItemPrice: (13).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1884,9 +1884,9 @@ export const products = [
   {
     id: "double-salmon-roll-8-pcs-3",
     ItemImg: DoubleSalmon,
-    ItemName: "Double Salmon Roll 8Pcs",
+    ItemName: "Rollo de salmón doble 8 piezas",
     ItemIngredients:
-      "Salmon, Cream Cheese, Avocado, Sesame, Extra Salmon Slice, Cucumber, Rice, Nori.",
+      "Salmón, queso crema, aguacate, sésamo, rodaja de salmón extra, pepino, arroz, nori.",
     ItemPrice: (10).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1894,8 +1894,8 @@ export const products = [
   {
     id: "clockwork-orange-roll-8-pcs",
     ItemImg: ClockworkOrange,
-    ItemName: "Clockwork Orange Roll 8Pcs",
-    ItemIngredients: "Salmon, orange, cream cheese, salmon extra slice, nori.",
+    ItemName: "Rollo de naranja mecánica, 8 piezas",
+    ItemIngredients: "Salmón, naranja, queso crema, loncha extra de salmón, nori.",
     ItemPrice: (11).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1903,9 +1903,9 @@ export const products = [
   {
     id: "kiwi-roll-8-pcs",
     ItemImg: KiwiRoll,
-    ItemName: "Kiwi Roll 8Pcs",
+    ItemName: "Rollo de kiwi 8 piezas",
     ItemIngredients:
-      "Salmon, Kiwi, Carrot, Cream Cheese, Tobico, Cucumber, Rice, Nori.",
+      "Salmón, kiwi, zanahoria, queso crema, tobico, pepino, arroz, nori.",
     ItemPrice: (13).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1913,8 +1913,8 @@ export const products = [
   {
     id: "the-roll-of-siamese",
     ItemImg: Siamese,
-    ItemName: "The Roll of Siamese",
-    ItemIngredients: "Salmon, Cucumber, Carrot, Caviar, Rice.",
+    ItemName: "El rollo de los siameses",
+    ItemIngredients: "Salmón, pepino, zanahoria, caviar, arroz.",
     ItemPrice: (15).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1922,8 +1922,8 @@ export const products = [
   {
     id: "salmon-maki-raki-8-pcs",
     ItemImg: SalmonMaki,
-    ItemName: "Salmon Maki Raki 8Pcs",
-    ItemIngredients: "Salmon, Cream Cheese, Rice, Nori.",
+    ItemName: "Maki Raki de salmón 8 piezas",
+    ItemIngredients: "Salmón, queso crema, arroz, nori.",
     ItemPrice: (9).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1931,8 +1931,8 @@ export const products = [
   {
     id: "nigiri-with-roasted-salmon-1-pc",
     ItemImg: NigiriWithRoasted,
-    ItemName: "Nigiri with Roasted Salmon 1Pc",
-    ItemIngredients: "Roasted Salmon, Rice.",
+    ItemName: "Nigiri con salmón asado 1 pieza",
+    ItemIngredients: "Salmón Asado, Arroz.",
     ItemPrice: (5).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1940,8 +1940,8 @@ export const products = [
   {
     id: "nigiri-with-salmon-and-orange-1-pc",
     ItemImg: NigiriWithSalmon,
-    ItemName: "Nigiri with Salmon and Orange 1Pc",
-    ItemIngredients: "Salmon, Orange, Rice.",
+    ItemName: "Nigiri con Salmón y Naranja 1Pc",
+    ItemIngredients: "Salmón, naranja, arroz.",
     ItemPrice: (4).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1949,8 +1949,8 @@ export const products = [
   {
     id: "nigiri-with-eel-1-pc",
     ItemImg: NigiriWithEel,
-    ItemName: "Nigiri with Eel 1Pc",
-    ItemIngredients: "Eel, rice.",
+    ItemName: "Nigiri con anguila 1 pieza",
+    ItemIngredients: "Anguila, arroz.",
     ItemPrice: (6).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1958,8 +1958,8 @@ export const products = [
   {
     id: "vulcan-tobiko",
     ItemImg: VulcanTobiko,
-    ItemName: "Vulcan Tobiko",
-    ItemIngredients: "Delicious Gunkan with Tobiko and Rice.",
+    ItemName: "Tobiko vulcaniano",
+    ItemIngredients: "Delicioso Gunkan con Tobiko y Arroz.",
     ItemPrice: (4).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1967,8 +1967,8 @@ export const products = [
   {
     id: "salmon-gunkan-with-cream-cheese",
     ItemImg: SalmonGunkan,
-    ItemName: "Salmon Gunkan with Cream Cheese",
-    ItemIngredients: "Perfect sushi rice, Nigiri prawns, Cream cheese, Wasabi.",
+    ItemName: "Gunkan de salmón con queso crema",
+    ItemIngredients: "Arroz de sushi perfecto, camarones nigiri, queso crema, wasabi.",
     ItemPrice: (11).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1976,8 +1976,8 @@ export const products = [
   {
     id: "very-vegetarian-maki-8-pcs",
     ItemImg: VeryVegetarian,
-    ItemName: "Very Vegetarian Maki 8Pcs",
-    ItemIngredients: "Avocado, Cream Cheese, Cucumber, Rice, Nori.",
+    ItemName: "Maki muy vegetariano 8 piezas",
+    ItemIngredients: "Aguacate, queso crema, pepino, arroz, nori.",
     ItemPrice: (5).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1985,8 +1985,8 @@ export const products = [
   {
     id: "avocado-maki-raki-8-pcs",
     ItemImg: SushiOne,
-    ItemName: "Avocado Maki Raki 8Pcs",
-    ItemIngredients: "Avocado, Cream Cheese, Rice, Nori.",
+    ItemName: "Maki Raki de aguacate 8 piezas",
+    ItemIngredients: "Aguacate, queso crema, arroz, nori.",
     ItemPrice: (5).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -1994,8 +1994,8 @@ export const products = [
   {
     id: "cucumber-maki-raki-8-pcs",
     ItemImg: CucumberMaki,
-    ItemName: "Cucumber Maki Raki 8Pcs",
-    ItemIngredients: "Cucumber, Sesame, Rice, Nori.",
+    ItemName: "Maki Raki de pepino 8 piezas",
+    ItemIngredients: "Pepino, Sésamo, Arroz, Nori.",
     ItemPrice: (4).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2003,9 +2003,9 @@ export const products = [
   {
     id: "hungry-set-64-pcs",
     ItemImg: HungrySet,
-    ItemName: "Hungry Set 64Pcs",
+    ItemName: "Juego de 64 piezas para el hambre",
     ItemIngredients:
-      "Californication,  Sunny Philadelphia Roll, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Very Vegetarian Maki Raki, Cucumber Maki Raki,  Avocado Maki Raki.",
+      "Rollo soleado de Filadelfia, rollo de salmón picante, rollo de anguila feliz, rollo de cangrejo Sebastián, maki raki muy vegetariano, maki raki de pepino, maki raki de aguacate.",
     ItemPrice: (50).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2013,9 +2013,9 @@ export const products = [
   {
     id: "nigiri-ocean-14-pcs",
     ItemImg: NigiriOcean,
-    ItemName: "Nigiri Ocean - 14 Pcs",
+    ItemName: "Nigiri Ocean - 14 piezas",
     ItemIngredients:
-      "14 Different Nigiris: Salmon Nigiri - 2Pcs, Salmon Nigiri with Orange - 2Pcs, Eel Nigiri - 2Pcs, Tuna Nigiri - 2Pcs, Fried Tuna Nigiri - 2Pcs, Fried Salmon Nigiri - 2Pcs, Kiwi Nigiri - 2Pcs",
+      "14 Nigiris diferentes: Nigiri de salmón - 2 piezas, Nigiri de salmón con naranja - 2 piezas, Nigiri de anguila - 2 piezas, Nigiri de atún - 2 piezas, Nigiri de atún frito - 2 piezas, Nigiri de salmón frito - 2 piezas, Nigiri de kiwi - 2 piezas",
     ItemPrice: (40).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2023,9 +2023,9 @@ export const products = [
   {
     id: "foggy-albion-26-pcs",
     ItemImg: FoggyAlbion,
-    ItemName: "Foggy Albion - 26Pcs",
+    ItemName: "Albión brumoso - 26 piezas",
     ItemIngredients:
-      "Sunny Philadelphia, Sebastian the Crab, Cucumber Maki Raki, Salmon Gunkan with Cream Cheese - 2Pcs",
+      "Philadelphia Soleada, cangrejo Sebastián, maki raki de pepino, gunkan de salmón con queso crema (2 unidades)",
     ItemPrice: (30).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2033,9 +2033,9 @@ export const products = [
   {
     id: "stanley-kubrick-24-pcs",
     ItemImg: StanleyKubrick,
-    ItemName: "Stanley Kubrick - 24 Pcs",
+    ItemName: "Stanley Kubrick - 24 piezas",
     ItemIngredients:
-      "Clockwork Orange Roll, Spicy Salmon Roll, Very Vegetarian Maki",
+      "Rollo de naranja mecánica, rollo de salmón picante, maki muy vegetariano",
     ItemPrice: (11).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2043,9 +2043,9 @@ export const products = [
   {
     id: "salmon-poke-second",
     ItemImg: SalmonPoke,
-    ItemName: "Salmon Poke",
+    ItemName: "Poke De Salmón",
     ItemIngredients:
-      "Salmon, Avocado, Rice, Cabbage, Carrots, Creen onions, Sesame.",
+      "Salmón, aguacate, arroz, repollo, zanahorias, cebollas verdes, sésamo.",
     ItemPrice: (10).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2054,9 +2054,9 @@ export const products = [
   {
     id: "veggie-poke-second",
     ItemImg: VeggiePoke,
-    ItemName: "Veggie Poke",
+    ItemName: "Poke vegetariano",
     ItemIngredients:
-      "Rice, Avocado, Cabage, Carrot, Ginger, Green Onion, Sesam.",
+      "Arroz, aguacate, repollo, zanahoria, jengibre, cebolla verde, sésamo.",
     ItemPrice: (8).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2064,9 +2064,9 @@ export const products = [
   {
     id: "mini-salmon-set-22-pcs-second",
     ItemImg: MiniSalmon,
-    ItemName: "Mini Salmon Set - 22Pcs",
+    ItemName: "Mini juego de salmón - 22 piezas",
     ItemIngredients:
-      "Double Salmon Roll,Californication, Salmon Nigiri - 2Pcs, Eel Nigiri - 2Pcs,Vulcan Gunkan - 2Pcs",
+      "Rollo doble de salmón, Californication, Nigiri de salmón (2 piezas), Nigiri de anguila (2 piezas), Vulcan Gunkan (2 piezas)",
     ItemPrice: (35).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2074,9 +2074,9 @@ export const products = [
   {
     id: "the-bull-of-ombos-set-32-pcs-second",
     ItemImg: OmbosSeth,
-    ItemName: "The Bull of Ombos Set - 32 Pcs",
+    ItemName: "Set El Toro de Ombos - 32 piezas",
     ItemIngredients:
-      "Double Salmon Roll, Sunny Philadelphia, Salmon Maki Raki, Cucumber Maki Raki.",
+      "Rollo doble de salmón, Sunny Philadelphia, Maki Raki de salmón, Maki Raki de pepino.",
     ItemPrice: (30).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2084,9 +2084,9 @@ export const products = [
   {
     id: "veggie-set-32-pcs-second",
     ItemImg: VeggieSet,
-    ItemName: "Veggie Set 32Pcs",
+    ItemName: "Juego de verduras de 32 piezas",
     ItemIngredients:
-      "Very Veggie Roll, Very Veggie Maki, Cucumber Maki Raki, Avocado Maki Raki.",
+      "Rollo muy vegetariano, maki muy vegetariano, maki raki de pepino, maki raki de aguacate.",
     ItemPrice: (16).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2094,9 +2094,9 @@ export const products = [
   {
     id: "friendly-set-40-pcs-second",
     ItemImg: FriendlySet,
-    ItemName: "Friendly Set 40Pcs",
+    ItemName: "Juego amigable 40 piezas",
     ItemIngredients:
-      "Californication, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Cucumber Maki Raki.",
+      "Rollo de Ralmón Picante, Rollo de Anguila Delicioso, Rollo de Cangrejo, Pepino Maki Raki.",
     ItemPrice: (30).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2104,8 +2104,8 @@ export const products = [
   {
     id: "sunny-philadelphia-roll-8-pcs-second",
     ItemImg: SunnyPhiladelphia,
-    ItemName: "Sunny Philadelphia Roll 8Pcs",
-    ItemIngredients: "Salmon, cream cheese, avocado, rice, sesame, nori.",
+    ItemName: "Rollo Filadelfia soleado 8 piezas",
+    ItemIngredients: "Salmón, queso crema, aguacate, arroz, sésamo, nori.",
     ItemPrice: (12).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2113,9 +2113,9 @@ export const products = [
   {
     id: "hidden-dragon-roll-8-pcs-second",
     ItemImg: HiddenDragon,
-    ItemName: "Hidden Dragon Roll 8Pcs",
+    ItemName: "Rollo de dragón oculto, 8 piezas",
     ItemIngredients:
-      "Salmon, cream cheese, avocado, tobiko, rice, sesame, cucumber, nori.",
+      "Salmón, queso crema, aguacate, tobiko, arroz, sésamo, pepino, nori.",
     ItemPrice: (13).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2123,9 +2123,9 @@ export const products = [
   {
     id: "double-salmon-roll-8-pcs-second",
     ItemImg: DoubleSalmon,
-    ItemName: "Double Salmon Roll 8Pcs",
+    ItemName: "Rollo de salmón doble 8 piezas",
     ItemIngredients:
-      "Salmon, Cream Cheese, Avocado, Sesame, Extra Salmon Slice, Cucumber, Rice, nori.",
+      "Salmón, queso crema, aguacate, sésamo, rodaja de salmón extra, pepino, arroz, nori.",
     ItemPrice: (14).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2133,9 +2133,9 @@ export const products = [
   {
     id: "the-hottest-taisho-second",
     ItemImg: HottestTaisho,
-    ItemName: "The Hottest Taisho",
+    ItemName: "El Taisho más caliente",
     ItemIngredients:
-      "Salmon, Cream Cheese, Avocado, Cucumber, Rice - all comes with your chosen sauce.",
+      "Salmón, queso crema, aguacate, pepino, arroz: todo viene con la salsa elegida.",
     ItemPrice: (12).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2143,8 +2143,8 @@ export const products = [
   {
     id: "burning-taisho-second",
     ItemImg: BurningTaisho,
-    ItemName: "Burning Taisho",
-    ItemIngredients: "Salmon, Avocado, Rice, Cucumber, Cream Cheese.",
+    ItemName: "Taisho ardiente",
+    ItemIngredients: "Salmón, aguacate, arroz, pepino, queso crema.",
     ItemPrice: (10).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2152,9 +2152,9 @@ export const products = [
   {
     id: "blissful-eel-roll-8-pcs-second",
     ItemImg: BlissfulEel,
-    ItemName: "Blissful Eel Roll 8Pcs",
+    ItemName: "Rollo de anguila feliz 8 piezas",
     ItemIngredients:
-      "Eel kinda blissful, Cream Cheese, Avocado, Tobico, Sesame, Rice, Nori.",
+      "Anguila dichosa, queso crema, aguacate, tobico, sésamo, arroz, nori.",
     ItemPrice: (14).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2162,9 +2162,9 @@ export const products = [
   {
     id: "sebastian-the-crab-roll-8-pcs-second",
     ItemImg: Sebastian,
-    ItemName: "Sebastian the Crab Roll 8Pcs",
+    ItemName: "Rollo de cangrejo Sebastián 8 piezas",
     ItemIngredients:
-      "Crab with Unique Sauce, Cream Cheese, Avocado, Dried Tuna Flakes, Sesame, Cucumber Rice, Nori.",
+      "Cangrejo con salsa única, queso crema, aguacate, hojuelas de atún seco, sésamo, arroz de pepino, nori.",
     ItemPrice: (13).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2172,9 +2172,9 @@ export const products = [
   {
     id: "double-salmon-roll-8-pcs-sec",
     ItemImg: DoubleSalmon,
-    ItemName: "Double Salmon Roll 8Pcs",
+    ItemName: "Rollo de salmón doble 8 piezas",
     ItemIngredients:
-      "Salmon, Cream Cheese, Avocado, Sesame, Extra Salmon Slice, Cucumber, Rice, Nori.",
+      "Salmón, queso crema, aguacate, sésamo, rodaja de salmón extra, pepino, arroz, nori.",
     ItemPrice: (10).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2182,8 +2182,8 @@ export const products = [
   {
     id: "clockwork-orange-roll-8-pcs-second",
     ItemImg: ClockworkOrange,
-    ItemName: "Clockwork Orange Roll 8Pcs",
-    ItemIngredients: "Salmon, orange, cream cheese, salmon extra slice, nori.",
+    ItemName: "Rollo de naranja mecánica, 8 piezas",
+    ItemIngredients: "Salmón, naranja, queso crema, loncha extra de salmón, nori.",
     ItemPrice: (11).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2191,9 +2191,9 @@ export const products = [
   {
     id: "kiwi-roll-8-pcs-second",
     ItemImg: KiwiRoll,
-    ItemName: "Kiwi Roll 8Pcs",
+    ItemName: "Rollo de kiwi 8 piezas",
     ItemIngredients:
-      "Salmon, Kiwi, Carrot, Cream Cheese, Tobico, Cucumber, Rice, Nori.",
+      "Salmón, kiwi, zanahoria, queso crema, tobico, pepino, arroz, nori.",
     ItemPrice: (13).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2201,8 +2201,8 @@ export const products = [
   {
     id: "the-roll-of-siamese-second",
     ItemImg: Siamese,
-    ItemName: "The Roll of Siamese",
-    ItemIngredients: "Salmon, Cucumber, Carrot, Caviar, Rice.",
+    ItemName: "El rollo de los siameses",
+    ItemIngredients: "Salmón, pepino, zanahoria, caviar, arroz.",
     ItemPrice: (15).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2210,8 +2210,8 @@ export const products = [
   {
     id: "salmon-maki-raki-8-pcs-second",
     ItemImg: SalmonMaki,
-    ItemName: "Salmon Maki Raki 8Pcs",
-    ItemIngredients: "Salmon, Cream Cheese, Rice, Nori.",
+    ItemName: "Maki Raki de salmón 8 piezas",
+    ItemIngredients: "Salmón, queso crema, arroz, nori.",
     ItemPrice: (9).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2219,8 +2219,8 @@ export const products = [
   {
     id: "nigiri-with-roasted-salmon-1-pc-second",
     ItemImg: NigiriWithRoasted,
-    ItemName: "Nigiri with Roasted Salmon 1Pc",
-    ItemIngredients: "Roasted Salmon, Rice.",
+    ItemName: "Nigiri con salmón asado 1 pieza",
+    ItemIngredients: "Salmón Asado, Arroz.",
     ItemPrice: (5).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2228,8 +2228,8 @@ export const products = [
   {
     id: "nigiri-with-salmon-and-orange-1-pc-second",
     ItemImg: NigiriWithSalmon,
-    ItemName: "Nigiri with Salmon and Orange 1Pc",
-    ItemIngredients: "Salmon, Orange, Rice.",
+    ItemName: "Nigiri con Salmón y Naranja 1Pc",
+    ItemIngredients: "Salmón, naranja, arroz.",
     ItemPrice: (4).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2237,8 +2237,8 @@ export const products = [
   {
     id: "nigiri-with-eel-1-pc-second",
     ItemImg: NigiriWithEel,
-    ItemName: "Nigiri with Eel 1Pc",
-    ItemIngredients: "Eel, rice.",
+    ItemName: "Nigiri con anguila 1 pieza",
+    ItemIngredients: "Anguila, arroz.",
     ItemPrice: (6).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2246,8 +2246,8 @@ export const products = [
   {
     id: "vulcan-tobiko-second",
     ItemImg: VulcanTobiko,
-    ItemName: "Vulcan Tobiko",
-    ItemIngredients: "Delicious Gunkan with Tobiko and Rice.",
+    ItemName: "Tobiko volcánico",
+    ItemIngredients: "Delicioso Gunkan con Tobiko y Arroz.",
     ItemPrice: (4).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2255,8 +2255,8 @@ export const products = [
   {
     id: "salmon-gunkan-with-cream-cheese-second",
     ItemImg: SalmonGunkan,
-    ItemName: "Salmon Gunkan with Cream Cheese",
-    ItemIngredients: "Perfect sushi rice, Nigiri prawns, Cream cheese, Wasabi.",
+    ItemName: "Gunkan de salmón con queso crema",
+    ItemIngredients: "Arroz de sushi perfecto, camarones nigiri, queso crema, wasabi.",
     ItemPrice: (11).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2264,8 +2264,8 @@ export const products = [
   {
     id: "very-vegetarian-maki-8-pcs-second",
     ItemImg: VeryVegetarian,
-    ItemName: "Very Vegetarian Maki 8Pcs",
-    ItemIngredients: "Avocado, Cream Cheese, Cucumber, Rice, Nori.",
+    ItemName: "Maki vegetariano 8 piezas",
+    ItemIngredients: "Aguacate, queso crema, pepino, arroz, nori.",
     ItemPrice: (5).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2273,8 +2273,8 @@ export const products = [
   {
     id: "avocado-maki-raki-8-pcs-second",
     ItemImg: SushiOne,
-    ItemName: "Avocado Maki Raki 8Pcs",
-    ItemIngredients: "Avocado, Cream Cheese, Rice, Nori.",
+    ItemName: "Maki Raki de aguacate 8 piezas",
+    ItemIngredients: "Aguacate, queso crema, arroz, nori.",
     ItemPrice: (5).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2282,8 +2282,8 @@ export const products = [
   {
     id: "cucumber-maki-raki-8-pcs-second",
     ItemImg: CucumberMaki,
-    ItemName: "Cucumber Maki Raki 8Pcs",
-    ItemIngredients: "Cucumber, Sesame, Rice, Nori.",
+    ItemName: "Maki Raki de pepino 8 piezas",
+    ItemIngredients: "pepino, sésamo, arroz, nori.",
     ItemPrice: (4).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2291,9 +2291,9 @@ export const products = [
   {
     id: "hungry-set-64-pcs-second",
     ItemImg: HungrySet,
-    ItemName: "Hungry Set 64Pcs",
+    ItemName: "Juego de 64 piezas para el hambre",
     ItemIngredients:
-      "Californication,  Sunny Philadelphia Roll, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Very Vegetarian Maki Raki, Cucumber Maki Raki,  Avocado Maki Raki.",
+      "Californication, Sunny Philadelphia Roll, Spicy Salmon Roll, Blissful Eel Roll, Sebastian the Crab Roll, Maki Raki muy vegetariano, Maki Raki de pepino, Maki Raki de aguacate.",
     ItemPrice: (50).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2301,9 +2301,9 @@ export const products = [
   {
     id: "nigiri-ocean-14-pcs-second",
     ItemImg: NigiriOcean,
-    ItemName: "Nigiri Ocean - 14 Pcs",
+    ItemName: "Nigiri Ocean - 14 piezas",
     ItemIngredients:
-      "14 Different Nigiris: Salmon Nigiri - 2Pcs, Salmon Nigiri with Orange - 2Pcs, Eel Nigiri - 2Pcs, Tuna Nigiri - 2Pcs, Fried Tuna Nigiri - 2Pcs, Fried Salmon Nigiri - 2Pcs, Kiwi Nigiri - 2Pcs",
+      "14 Nigiris diferentes: Nigiri de salmón - 2 piezas, Nigiri de salmón con naranja - 2 piezas, Nigiri de anguila - 2 piezas, Nigiri de atún - 2 piezas, Nigiri de atún frito - 2 piezas, Nigiri de salmón frito - 2 piezas, Nigiri de kiwi - 2 piezas",
     ItemPrice: (40).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2311,9 +2311,9 @@ export const products = [
   {
     id: "foggy-albion-26-pcs-second",
     ItemImg: FoggyAlbion,
-    ItemName: "Foggy Albion - 26Pcs",
+    ItemName: "Albión brumoso - 26 piezas",
     ItemIngredients:
-      "Sunny Philadelphia, Sebastian the Crab, Cucumber Maki Raki, Salmon Gunkan with Cream Cheese - 2Pcs",
+      "Sunny Philadelphia, cangrejo Sebastián, maki raki de pepino, gunkan de salmón con queso crema (2 unidades)",
     ItemPrice: (30).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2321,9 +2321,9 @@ export const products = [
   {
     id: "stanley-kubrick-24-pcs-second",
     ItemImg: StanleyKubrick,
-    ItemName: "Stanley Kubrick - 24 Pcs",
+    ItemName: "Stanley Kubrick - 24 piezas",
     ItemIngredients:
-      "Clockwork Orange Roll, Spicy Salmon Roll, Very Vegetarian Maki",
+      "Rollo de naranja mecánica, rollo de salmón picante, maki muy vegetariano",
     ItemPrice: (11).toFixed(2),
     Category: "Sushi",
     attributes: [],
@@ -2331,460 +2331,460 @@ export const products = [
   {
     id: "coca-cola-original-soda-pop",
     ItemImg: CocaCola,
-    ItemName: "Coca-Cola Original Soda Pop",
+    ItemName: "Refresco Coca-Cola Original",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
 
   {
     id: "mountain-dew-citrus-soda-pop",
     ItemImg: MountainDew,
-    ItemName: "Mountain Dew Citrus Soda Pop",
+    ItemName: "Refresco de cítricos Mountain Dew",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "pepsi-cola-soda-pop",
     ItemImg: PepsiCola,
-    ItemName: "Pepsi Cola Soda Pop",
+    ItemName: "Refresco Pepsi Cola",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "milos-famous-sweet-tea",
     ItemImg: Milo,
-    ItemName: "Milo’s Famous Sweet Tea",
+    ItemName: "El famoso té dulce de Milo",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "dr-pepper-soda",
     ItemImg: DrPepper,
-    ItemName: "Dr Pepper Soda",
+    ItemName: "Refresco Dr. Pepper",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "sprite-caffeine-free-lemon-lime-soda-pop",
     ItemImg: SpriteCaffeine,
-    ItemName: "Sprite Caffeine-Free Lemon Lime Soda Pop",
+    ItemName: "Refresco de lima y limón sin cafeína Sprite",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "great-value-sweet-brewed-iced-tea",
     ItemImg: GreatValueSweet,
-    ItemName: "Great Value Sweet Brewed Iced Tea",
+    ItemName: "Té helado dulce",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "stok-cold-brew-coffee-black-iunsweetened",
     ItemImg: SToK,
-    ItemName: "SToK Cold Brew Coffee, Black Unsweetened",
+    ItemName: "Café negro sin azúcar preparado en frío SToK",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "lipton-green-tea-citrus-iced-tea",
     ItemImg: Lipton,
-    ItemName: "Lipton Green Tea Citrus Iced Tea",
+    ItemName: "Té helado cítrico con té verde Lipton",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "canada-dry-ginger-ale-soda",
     ItemImg: CanadaDry,
-    ItemName: "Canada Dry Ginger Ale Soda",
+    ItemName: "Refresco de jengibre Canada Dry",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "dr-pepper-zero-sugar-soda",
     ItemImg: DrPepperZero,
-    ItemName: "Dr Pepper Zero Sugar Soda",
+    ItemName: "Refresco sin azúcar Dr Pepper",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "diet-dr-pepper-soda",
     ItemImg: DietDrPepper,
-    ItemName: "Diet Dr Pepper Soda",
+    ItemName: "Refresco dietético Dr Pepper",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "aquafina-purified-bottled-drinking-water",
     ItemImg: AquafinaPurified,
-    ItemName: "Aquafina Purified Bottled Drinking Water",
+    ItemName: "Agua potable embotellada purificada Aquafina",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "pure-life-purified-water",
     ItemImg: PureLife,
-    ItemName: "Pure Life Purified Water",
+    ItemName: "Agua Purificada Pure Life",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "sams-cola-soda-pop",
     ItemImg: SamsCola,
-    ItemName: "Sams Cola Soda Pop",
+    ItemName: "Refresco de cola Sam's",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "red-bull-energy-drink",
     ItemImg: RedBull,
-    ItemName: "Red Bull Energy Drink",
+    ItemName: "Bebida energética Red Bull",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "a-w-caffeine-free-low-sodium-root-beer-soda-pop",
     ItemImg: Anw,
-    ItemName: "A&W Caffeine-Free, Low Sodium Root Beer Soda Pop",
+    ItemName: "Refresco de cerveza de raíz sin cafeína y bajo en sodio de A&W",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "pepsi-soda-pop",
     ItemImg: PepsiSoda,
-    ItemName: "Pepsi Soda Pop",
+    ItemName: "Refresco Pepsi",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "great-value-cream-soda-pop",
     ItemImg: GreatValue,
-    ItemName: "Great Value Cream Soda Pop",
+    ItemName: "Refresco de crema",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "sunkist-orange-soda",
     ItemImg: Sunkist,
-    ItemName: "Sunkist Orange Soda",
+    ItemName: "Refresco de naranja Sunkist",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "great-value-twist-up-lemon-lime-soda-pop",
     ItemImg: GreatValueTwist,
-    ItemName: "Great Value Twist Up Lemon Lime Soda Pop",
+    ItemName: "Refresco de lima y limón Twist Up",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "fanta-orange-soda",
     ItemImg: FantaOrange,
-    ItemName: "Fanta Orange Soda",
+    ItemName: "Refresco Fanta de naranja",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "coca-cola-original-soda-pop-second",
     ItemImg: CocaCola,
-    ItemName: "Coca-Cola Original Soda Pop",
+    ItemName: "Refresco Coca-Cola Original",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
 
   {
     id: "mountain-dew-citrus-soda-pop-second",
     ItemImg: MountainDew,
-    ItemName: "Mountain Dew Citrus Soda Pop",
+    ItemName: "Refresco de cítricos Mountain Dew",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "pepsi-cola-soda-pop-second",
     ItemImg: PepsiCola,
-    ItemName: "Pepsi Cola Soda Pop",
+    ItemName: "Refresco Pepsi Cola",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "milos-famous-sweet-tea-second",
     ItemImg: Milo,
-    ItemName: "Milo’s Famous Sweet Tea",
+    ItemName: "El famoso té dulce de Milo",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "dr-pepper-soda-second",
     ItemImg: DrPepper,
-    ItemName: "Dr Pepper Soda",
+    ItemName: "Refresco Dr. Pepper",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "sprite-caffeine-free-lemon-lime-soda-pop-second",
     ItemImg: SpriteCaffeine,
-    ItemName: "Sprite Caffeine-Free Lemon Lime Soda Pop",
+    ItemName: "Refresco de lima y limón sin cafeína Sprite",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "great-value-sweet-brewed-iced-tea-second",
     ItemImg: GreatValueSweet,
-    ItemName: "Great Value Sweet Brewed Iced Tea",
+    ItemName: "Té helado dulce",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "stok-cold-brew-coffee-black-iunsweetened-second",
     ItemImg: SToK,
-    ItemName: "SToK Cold Brew Coffee, Black Unsweetened",
+    ItemName: "Café negro sin azúcar preparado en frío SToK",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "lipton-green-tea-citrus-iced-tea-second",
     ItemImg: Lipton,
-    ItemName: "Lipton Green Tea Citrus Iced Tea",
+    ItemName: "Té helado cítrico con té verde Lipton",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "canada-dry-ginger-ale-soda-second",
     ItemImg: CanadaDry,
-    ItemName: "Canada Dry Ginger Ale Soda",
+    ItemName: "Refresco de jengibre Canada Dry",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "dr-pepper-zero-sugar-soda-second",
     ItemImg: DrPepperZero,
-    ItemName: "Dr Pepper Zero Sugar Soda",
+    ItemName: "Refresco sin azúcar Dr Pepper",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "diet-dr-pepper-soda-second",
     ItemImg: DietDrPepper,
-    ItemName: "Diet Dr Pepper Soda",
+    ItemName: "Refresco dietético Dr Pepper",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "aquafina-purified-bottled-drinking-water-second",
     ItemImg: AquafinaPurified,
-    ItemName: "Aquafina Purified Bottled Drinking Water",
+    ItemName: "Agua potable embotellada purificada Aquafina",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "pure-life-purified-water-second",
     ItemImg: PureLife,
-    ItemName: "Pure Life Purified Water",
+    ItemName: "Agua Purificada Pure Life",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "sams-cola-soda-pop-second",
     ItemImg: SamsCola,
-    ItemName: "Sams Cola Soda Pop",
+    ItemName: "Refresco de cola Sam's",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "red-bull-energy-drink-second",
     ItemImg: RedBull,
-    ItemName: "Red Bull Energy Drink",
+    ItemName: "Bebida Energética Red Bull",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "a-w-caffeine-free-low-sodium-root-beer-soda-pop-second",
     ItemImg: Anw,
-    ItemName: "A&W Caffeine-Free, Low Sodium Root Beer Soda Pop",
+    ItemName: "Refresco de cerveza de raíz sin cafeína y bajo en sodio de A&W",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "pepsi-soda-pop-second",
     ItemImg: PepsiSoda,
-    ItemName: "Pepsi Soda Pop",
+    ItemName: "Refresco Pepsi",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "great-value-cream-soda-pop-second",
     ItemImg: GreatValue,
-    ItemName: "Great Value Cream Soda Pop",
+    ItemName: "refresco de crema",
     ItemPrice: (3).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "sunkist-orange-soda-second",
     ItemImg: Sunkist,
-    ItemName: "Sunkist Orange Soda",
+    ItemName: "Refresco de naranja Sunkist",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "great-value-twist-up-lemon-lime-soda-pop-second",
     ItemImg: GreatValueTwist,
-    ItemName: "Great Value Twist Up Lemon Lime Soda Pop",
+    ItemName: "Refresco de lima y limón con un toque genial",
     ItemPrice: (2).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "fanta-orange-soda-second",
     ItemImg: FantaOrange,
-    ItemName: "Fanta Orange Soda",
+    ItemName: "Refresco Fanta de naranja",
     ItemPrice: (1).toFixed(2),
-    Category: "Drinks",
+    Category: "Bebidas",
     attributes: [],
   },
   {
     id: "nigiri-with-salmon-and-orange-1-pc-sale",
     ItemImg: NigiriWithSalmon,
-    ItemName: "Nigiri with Salmon and Orange 1Pc",
-    ItemIngredients: "Salmon, Orange, Rice.",
+    ItemName: "Nigiri con Salmón y Naranja 1Pc",
+    ItemIngredients: "Salmón, naranja, arroz.",
     ItemPriceBefore: (4).toFixed(2),
     ItemPrice: (3).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "pepperoni-pizza-sale",
     ItemImg: PepperoniPizza,
-    ItemName: "Pepperoni Pizza Medium",
+    ItemName: "Pizza de peperoni mediana",
     ItemIngredients:
-      "Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.",
+      "Masa de pizza: levadura, pepperoni, pasta de tomate, queso mozzarella, azúcar.",
     ItemPriceBefore: (5).toFixed(2),
     ItemPrice: (3).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "meat-pizza-sale",
     ItemImg: MeatPizza,
-    ItemName: "Meat Pizza Medium",
+    ItemName: "Pizza de Carne Mediana",
     ItemIngredients:
-      "Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.",
+      "Salchicha, masa de pizza, tocino, salsa de pizza, hojuelas de pimiento rojo.",
     ItemPriceBefore: (10).toFixed(2),
     ItemPrice: (8).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "margherita-pizza-sale",
     ItemImg: MargheritaPizza,
-    ItemName: "Margherita Pizza Small",
+    ItemName: "Pizza Margarita Pequeña",
     ItemIngredients:
-      "Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.",
+      "Masa de pizza, salsa de tomate, mozzarella fresca, aceite de oliva, hojas de albahaca.",
     ItemPriceBefore: (8).toFixed(2),
     ItemPrice: (7).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "veggie-pizza-sale",
     ItemImg: VeggiePizza,
-    ItemName: "Veggie Pizza Large",
+    ItemName: "Pizza Vegetariana Grande",
     ItemIngredients:
-      "Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.",
+      "Salsa para pizza, cebolla, pimiento, piña, jengibre, salsa picante, cilantro, salsa de ajo, salsa de mantequilla, queso.",
     ItemPriceBefore: (9).toFixed(2),
     ItemPrice: (7).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "sebastian-the-crab-roll-8-pcs-sale",
     ItemImg: Sebastian,
-    ItemName: "Sebastian the Crab Roll 8Pcs",
+    ItemName: "Rollo de cangrejo Sebastián 8 piezas",
     ItemIngredients:
-      "Crab with Unique Sauce, Cream Cheese, Avocado, Dried Tuna Flakes, Sesame, Cucumber Rice, Nori.",
+      "Cangrejo con salsa única, queso crema, aguacate, hojuelas de atún seco, sésamo, arroz de pepino, nori.",
     ItemPriceBefore: (13).toFixed(2),
     ItemPrice: (10).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "lamb-ragu-sale",
     ItemImg: LambRagu,
-    ItemName: "Lamb Ragù",
+    ItemName: "Ragú de cordero",
     ItemIngredients:
-      "Lamb shoulder, gnocchi, red wine, heavy cream, tomato paste.",
+      "Paleta de cordero, ñoquis, vino tinto, nata espesa, pasta de tomate.",
     ItemPriceBefore: (12).toFixed(2),
     ItemPrice: (10).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "cheese-pizza-sale",
     ItemImg: CheesePizza,
-    ItemName: "Cheese Pizza Large",
-    ItemIngredients: "Pizza dough, pizza sauce, provolone cheese, mozzarella.",
+    ItemName: "Pizza De Queso Grande",
+    ItemIngredients: "Masa de pizza, salsa de pizza, queso provolone, mozzarella.",
     ItemPriceBefore: (2).toFixed(2),
     ItemPrice: (1).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "cacio-e-pepe-potato-gnocchi-sale",
     ItemImg: PotatoGnocchi,
-    ItemName: "Cacio e Pepe Potato Gnocchi",
+    ItemName: "Ñoquis de patata con cacio y pepe",
     ItemIngredients:
-      "Green beans, potato gnocchi, green peas, pecorino romano cheese, black pepper.",
+      "Judías verdes, ñoquis de patata, guisantes, queso pecorino romano, pimienta negra.",
     ItemPriceBefore: (10).toFixed(2),
     ItemPrice: (9).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
@@ -2792,106 +2792,106 @@ export const products = [
   {
     id: "nigiri-with-salmon-and-orange-1-pc-sale-second",
     ItemImg: NigiriWithSalmon,
-    ItemName: "Nigiri with Salmon and Orange 1Pc",
-    ItemIngredients: "Salmon, Orange, Rice.",
+    ItemName: "Nigiri con Salmón y Naranja 1Pc",
+    ItemIngredients: "Salmón, naranja, arroz.",
     ItemPriceBefore: (4).toFixed(2),
     ItemPrice: (3).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "pepperoni-pizza-sale-second",
     ItemImg: PepperoniPizza,
-    ItemName: "Pepperoni Pizza Medium",
+    ItemName: "Pizza de peperoni mediana",
     ItemIngredients:
-      "Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.",
+      "Masa de pizza: levadura, pepperoni, pasta de tomate, queso mozzarella, azúcar.",
     ItemPriceBefore: (5).toFixed(2),
     ItemPrice: (3).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "meat-pizza-sale-second",
     ItemImg: MeatPizza,
-    ItemName: "Meat Pizza Large",
+    ItemName: "Pizza De Carne Grande",
     ItemIngredients:
-      "Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.",
+      "Salchicha, masa de pizza, tocino, salsa de pizza, hojuelas de pimiento rojo.",
     ItemPriceBefore: (10).toFixed(2),
     ItemPrice: (8).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "cacio-e-pepe-potato-gnocchi-sale-second",
     ItemImg: PotatoGnocchi,
-    ItemName: "Cacio e Pepe Potato Gnocchi",
+    ItemName: "Ñoquis de patata con cacio y pepe",
     ItemIngredients:
-      "Green beans, potato gnocchi, green peas, pecorino romano cheese, black pepper.",
+      "Judías verdes, ñoquis de patata, guisantes, queso pecorino romano, pimienta negra.",
     ItemPriceBefore: (10).toFixed(2),
     ItemPrice: (8).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "margherita-pizza-sale-second",
     ItemImg: MargheritaPizza,
-    ItemName: "Margherita Pizza Medium",
+    ItemName: "Pizza Margarita Mediana",
     ItemIngredients:
-      "Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.",
+      "Masa de pizza, salsa de tomate, mozzarella fresca, aceite de oliva, hojas de albahaca.",
     ItemPriceBefore: (8).toFixed(2),
     ItemPrice: (7).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "veggie-pizza-sale-second",
     ItemImg: VeggiePizza,
-    ItemName: "Veggie Pizza Large",
+    ItemName: "Pizza Vegetariana Grande",
     ItemIngredients:
-      "Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.",
+      "Salsa para pizza, cebolla, pimiento, piña, jengibre, salsa picante, cilantro, salsa de ajo, salsa de mantequilla, queso.",
     ItemPriceBefore: (9).toFixed(2),
     ItemPrice: (8).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "sebastian-the-crab-roll-8-pcs-sale-second",
     ItemImg: Sebastian,
-    ItemName: "Sebastian the Crab Roll 8Pcs",
+    ItemName: "Rollo de cangrejo Sebastián 8 piezas",
     ItemIngredients:
-      "Crab with Unique Sauce, Cream Cheese, Avocado, Dried Tuna Flakes, Sesame, Cucumber Rice, Nori.",
+      "Cangrejo con salsa única, queso crema, aguacate, hojuelas de atún seco, sésamo, arroz de pepino, nori.",
     ItemPriceBefore: (13).toFixed(2),
     ItemPrice: (11).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "lamb-ragu-sale-second",
     ItemImg: LambRagu,
-    ItemName: "Lamb Ragù",
+    ItemName: "Ragú de cordero",
     ItemIngredients:
-      "Lamb shoulder, gnocchi, red wine, heavy cream, tomato paste.",
+      "Paleta de cordero, ñoquis, vino tinto, nata espesa, pasta de tomate.",
     ItemPriceBefore: (12).toFixed(2),
     ItemPrice: (11).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },
   {
     id: "cheese-pizza-sale-second",
     ItemImg: CheesePizza,
-    ItemName: "Cheese Pizza Medium",
-    ItemIngredients: "Pizza dough, pizza sauce, provolone cheese, mozzarella.",
+    ItemName: "Pizza De Queso Mediana",
+    ItemIngredients: "Masa de pizza, salsa de pizza, queso provolone, mozzarella.",
     ItemPriceBefore: (2).toFixed(2),
     ItemPrice: (1).toFixed(2),
-    Category: "Sale",
+    Category: "Ventas",
     sale: true,
     attributes: [],
   },

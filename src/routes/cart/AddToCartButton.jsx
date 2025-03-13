@@ -15,7 +15,7 @@ const AddToCartButton = ({ singleProduct,
         }`}
       disabled={targetAttribute?.length > 0 || singleProduct?.attributes?.length === 0 ? false : true}
     >
-      Add to cart
+      Añadir a la cesta
     </button>
   );
 }

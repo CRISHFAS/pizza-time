@@ -10,10 +10,10 @@ const AboutUs = () => {
   return (
     <article className="about__company">
       <section className="about__company__content">
-        <h2>About us</h2>
-        <h3 className='sub-title'>More than delicious food</h3>
+        <h2>Sobre nosotros</h2>
+        <h3 className='sub-title'>Más que comida deliciosa</h3>
         <p>
-          Founded in 1982 we bring pizza slice by slice to the next level! Unique branding and being in the pizza industry is the formula to our success. We do understand what people want and convert desires to unique experiences of taste. Freshness, originality, and quality are only a small part of our priorities. Affortable costs, located almost anywhere you go, amazing online operational system to order food in one click. Easy to navigate pre-order options and amazing options for corporate parties! At Pizza Time we care about you because you are the one who makes us special! The Pizza Time project was made with love for pizza by Ekaterine Mitagvaria.
+        Fundada en 2022, ¡llevamos la pizza porción a porción al siguiente nivel! Nuestra marca única y estar en la industria de la pizza son la fórmula de nuestro éxito. Entendemos lo que la gente quiere y convertimos los deseos en experiencias únicas de sabor. La frescura, la originalidad y la calidad son solo una pequeña parte de nuestras prioridades. Costos asequibles, ubicación prácticamente en cualquier lugar al que vayas, un increíble sistema operativo en línea para pedir comida con un solo clic. Opciones de pedidos anticipados fáciles de navegar y opciones increíbles para fiestas corporativas. En Pizza Time nos preocupamos por ti porque eres quien nos hace especiales. El proyecto Pizza Time fue creado con amor por la pizza por Ekaterine Mitagvaria.
         </p>
         <div className="about__company__glass"></div>
       </section>

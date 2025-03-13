@@ -61,7 +61,7 @@ const Menu = ({ allProducts,
       <article className="menu__items">
         <AnimatePresence mode="sync">
           {currentProducts.length === 0 ?
-            <p className="menu__not-found">No results found...</p> :
+            <p className="menu__not-found">No se encontraron resultados...</p> :
             currentProducts.map((singleProduct) => (
               <motion.div
                 key={singleProduct.id}

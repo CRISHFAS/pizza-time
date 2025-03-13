@@ -7,13 +7,9 @@ const Refunds = () => {
   }, []);
   return (
     <main className="terms">
-      <h2>Refunds</h2>
+      <h2>Reembolsos</h2>
       <p>
-        This Refund Policy ("Policy") outlines the terms and conditions for
-        requesting a refund for the Instagram growth services provided by Pizza
-        Time ("Pizaa Time," "we," "our," or "us"). By using our services, you
-        ("you," "your," or "user") agree to comply with this Policy regarding
-        refund requests.
+      Esta Política de reembolsos ("Política") describe los términos y condiciones para solicitar un reembolso por los servicios de crecimiento de Instagram proporcionados por Pizza Time ("Pizaa Time", "nosotros", "nuestro" o "nos"). Al utilizar nuestros servicios, usted ("usted", "su" o "usuario") acepta cumplir con esta Política con respecto a las solicitudes de reembolso.
       </p>
       {refunds.map((content) => (
         <section key={content.title}>

@@ -58,7 +58,7 @@ const Payment = ({ cartItems, totalPayment }) => {
                     <span className="payment__form__error">{formError.year}</span>
                   </section>
                 </section>
-                <button type="submit" className=" active-button-style">Proceed</button>
+                <button type="submit" className=" active-button-style">Proceder</button>
               </form>
             </article>}
         </React.Fragment>}

@@ -41,8 +41,7 @@ const Blog = () => {
       transition={{ duration: 1 }}>
       <h2>Blog</h2>
       <p className="blog__intro">
-        Pizza makes everything better. These are some of our favorite pizza
-        blogs that are loaded with recipes and pizza-making tips.
+      La pizza lo hace todo mejor. Estos son algunos de nuestros blogs de pizza favoritos, repletos de recetas y consejos para preparar pizzas.
       </p>
       <section className="blog__posts">
         {currentBlogPosts.map((blogPost, index) => {

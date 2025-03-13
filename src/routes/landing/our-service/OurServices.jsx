@@ -7,11 +7,9 @@ import "./our-service.css";
 const OurServices = () => {
   return (
     <article className="homepage__services">
-      <h2 className="pop-font">Our Services</h2>
+      <h2 className="pop-font">Nuestros Servicios</h2>
       <p className="pop-font section-description">
-        Pizza Time provides services across all states - various foods and
-        drinks, you choose! What makes us special is our teams of professionals
-        with extensive knowledge of all the cuisine that we have to offer.
+      Pizza Time ofrece servicios en todo el pais: ¡variedad de comidas y bebidas, tú eliges! Lo que nos hace especiales son nuestros equipos de profesionales con amplios conocimientos de toda la gastronomía que tenemos para ofrecer.
       </p>
       <section className="services__items flex-container flex-column">
         {companyServices.map((service) => (

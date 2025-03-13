@@ -44,7 +44,7 @@ const CartItem = ({
       })
       }
      {cartItems.length > 0 && <button onClick={clearCart} className="cart__items__clear-btns">
-        remove all items from the cart
+     eliminar todos los artículos del carrito
       </button>}
       {cartTotals}
       </React.Fragment>

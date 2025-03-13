@@ -6,23 +6,23 @@ const companyServices = [
   {
     id: 1,
     img: ImgOne,
-    name: "Organic Food",
+    name: "Alimentos Orgánicos",
     description:
-      "Pure and healthy organic food is our lifestyle. The products we consume have an impact on our future and we do everything to keep the future healthy",
+      "La alimentación orgánica, pura y saludable es nuestro estilo de vida. Los productos que consumimos tienen un impacto en nuestro futuro y hacemos todo lo posible para mantenerlo saludable.",
   },
   {
     id: 2,
     img: ImgTwo,
-    name: "Express Delivery",
+    name: "Entrega Rápida",
     description:
-      "Choose from a variety of express delivery services depending on your needs. Whether in a hurry to eat or have some plans tomorrow, we have got you covered",
+      "Elija entre una variedad de servicios de entrega exprés según sus necesidades. Ya sea que tenga prisa por comer o tenga planes para mañana, lo tenemos cubierto.",
   },
   {
     id: 3,
     img: ImgThree,
-    name: "Unforgettable Taste",
+    name: "Sabor inolvidable",
     description:
-      "Our goal is to provide our customers with excellent service, great taste, and unforgettable experiences. This will be a mind-blowing experience for your taste buds",
+      "Nuestro objetivo es brindarles a nuestros clientes un excelente servicio, un gran sabor y experiencias inolvidables. Esta será una experiencia alucinante para sus papilas gustativas.",
   },
 ];
 

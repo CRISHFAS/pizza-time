@@ -31,15 +31,15 @@ const ContactUsLanding = () => {
       <section className='company-info__details'>
         <div>
           <h2>000 (000) 123 4567</h2>
-          <p>Contact us if you have any questions</p>
+          <p>Contáctanos si tienes alguna pregunta</p>
         </div>
         <div>
-          <h2>506 Roy Alley 80202 </h2>
-          <p>Colorado, Denver</p>
+          <h2>506 Avenue Las Peras 80202</h2>
+          <p>Posadas, Misiones</p>
         </div>
         <div>
-          <h2>Open Monday-Friday</h2>
-          <p>8:00am - 9:00pm</p>
+          <h2>Abierto de Lunes a Viernes</h2>
+          <p>De 8:00am - 9:00pm</p>
         </div>
       </section>
     </section>

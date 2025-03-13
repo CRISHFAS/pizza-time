@@ -8,7 +8,7 @@ import ResetLocation from "../../helpers/ResetLocation";
 import './contact.css'
 
 const Contact = () => {
-  const [formValue, setFormValue] = useState({ fullname: '', email: '', message: "" });
+  const [formValue, setFormValue] = useState({ fullname: '', email: '', mensage: "" });
   const [submit, setSubmit] = useState(false);
   const [formError, setFormError] = useState({});
   const [loading, setLoading] = useState(false);
@@ -42,14 +42,14 @@ const Contact = () => {
         setLoading(false);
         setSubmit(true);
         ResetLocation()
-        setFormValue({ fullname: '', email: '', message: "" })
+        setFormValue({ fullname: '', email: '', mensage: "" })
         setCaptchaError("");
       }
       else {
         ResetLocation()
         setLoading(false);
         setSubmit(false);
-        setFormValue({ fullname: '', email: '', message: "" });
+        setFormValue({ fullname: '', email: '', mensage: "" });
         setCaptchaError("");
       }
 
@@ -92,16 +92,16 @@ const Contact = () => {
       transition={{ duration: 1 }}>
       {loading ?
         <section className="contact-loader">
-          <p>Almost there...</p>
+          <p>Casi llegamos...</p>
           <img alt="Processing request" src="https://media0.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif?cid=ecf05e472hf2wk1f2jou3s5fcnx1vek6ggnfcvhsjbeh7v5u&ep=v1_stickers_search&rid=giphy.gif&ct=s" />
         </section>
         :
         submit && Object.keys(formError).length === 0 ?
           <section className="contact__success-msg">
-            <p>We have recieved your message and we will get back to you shortly! 🍕</p>
+            <p>Hemos recibido tu mensaje y nos pondremos en contacto contigo en breve! 🍕</p>
             <section>
-              <Link className="active-button-style" to="/menu">Go to menu</Link>
-              <button className="passive-button-style" type="button" onClick={() => { setSubmit(false); }}>Send again</button>
+              <Link className="active-button-style" to="/menu">Ir al menú</Link>
+              <button className="passive-button-style" type="button" onClick={() => { setSubmit(false); }}>Enviar de nuevo</button>
             </section>
           </section>
           :
@@ -141,15 +141,15 @@ const Contact = () => {
             <ReCAPTCHA ref={captchaRef} sitekey={import.meta.env.VITE_CAPTCHA_KEY} theme="dark" />
             <span className="input-validation-error">{captchaError}</span>
             <button type="submit" className="active-button-style" >
-              Send
+            Enviar
             </button>
           </form>
       }
       <section className="contact__cover"></section>
       <section className="contact__inner pop-font">
-        <h2 className="">Contact us</h2>
+        <h2 className="">Contacta con nosotros</h2>
         <p>
-          We greatly anticipate your response and are eager to receive any inquiries you might have. Please do not hesitate to reach out to us should you require any further clarification or assistance. Your feedback and questions are of utmost importance to us, and we are here to provide the support you need. Looking forward to hearing from you!
+        Esperamos su respuesta y estamos ansiosos por recibir cualquier consulta que pueda tener. No dude en comunicarse con nosotros si necesita más aclaraciones o ayuda. Sus comentarios y preguntas son de suma importancia para nosotros y estamos aquí para brindarle el apoyo que necesita. ¡Esperamos tener noticias suyas pronto!
         </p>
       </section>
     </motion.main>

@@ -5,107 +5,107 @@ import Img3 from "../assets/images/landing/blog-preview/blog-preview-375/post-3.
 const blogPreview = [
   {
     img: Img1,
-    name: "Pizza crust types",
+    name: "Tipos de masa de pizza",
     intro:
-      "Embark on a culinary adventure as we explore these delectable pizza crusts, each contributing its own character to the beloved dish we all know and love",
+      "Embárcate en una aventura culinaria mientras exploramos estas deliciosas masas de pizza, cada una de las cuales aporta su propio carácter al querido plato que todos conocemos y amamos.",
     date: "July 12, 2023",
     author: "Daniel Wilson",
     id: 1,
-    content: `When it comes to pizza, the crust is more than just a vessel for toppings – it's a canvas that can influence the entire dining experience. From thin and crispy to thick and doughy, pizza crusts come in a variety of types, each with its own unique characteristics and regional influences. Join us as we dive into the delightful world of pizza crusts and explore the different types that have captured the hearts and taste buds of pizza enthusiasts around the globe.
+    content: `Cuando se trata de pizza, la masa es más que un simple recipiente para los ingredientes: es un lienzo que puede influir en toda la experiencia gastronómica. Desde masas finas y crujientes hasta masas gruesas y pastosas, las masas de pizza vienen en una variedad de tipos, cada una con sus propias características únicas e influencias regionales. Únase a nosotros mientras nos sumergimos en el delicioso mundo de las masas de pizza y exploramos los diferentes tipos que han capturado los corazones y las papilas gustativas de los entusiastas de la pizza en todo el mundo.
     
-          1. Thin and Crispy: A Classic Delight
-          Thin crust pizza is a time-honored favorite, known for its delicate crunch and ability to showcase the flavors of the toppings. This type of crust is rolled out thinly, creating a light and airy base that allows the cheese, sauce, and toppings to shine. Originating from places like New York and Italy, thin crust pizza is perfect for those who crave a balance between the toppings and the crust.
+          1. Delgada y crujiente: una delicia clásica
+          La pizza de masa fina es una favorita de toda la vida, conocida por su delicado crujido y su capacidad para resaltar los sabores de los ingredientes. Este tipo de masa se extiende en una capa fina, lo que crea una base liviana y aireada que permite que el queso, la salsa y los ingredientes resalten. Originaria de lugares como Nueva York e Italia, la pizza de masa fina es perfecta para quienes anhelan un equilibrio entre los ingredientes y la masa.
           
-          2. Neapolitan: The Authentic Italian Experience
-          Hailing from Naples, Italy, the Neapolitan pizza crust is all about tradition. This crust is thin, soft, and slightly chewy, typically featuring a simple yet flavorful combination of San Marzano tomatoes, mozzarella cheese, fresh basil, and olive oil. Baked in wood-fired ovens at high temperatures, Neapolitan pizza crusts boast those irresistible charred spots that add to their rustic charm.
+          2. Napolitana: la auténtica experiencia italiana
+          La masa de pizza napolitana, originaria de Nápoles, Italia, es todo tradición. Esta masa es fina, suave y ligeramente masticable, y suele llevar una combinación simple pero sabrosa de tomates San Marzano, queso mozzarella, albahaca fresca y aceite de oliva. Horneadas en hornos de leña a altas temperaturas, las masas de pizza napolitanas tienen esos irresistibles puntos carbonizados que le suman su encanto rústico.
           
-          3. Deep-Dish: A Hearty Indulgence
-          For those who prefer a more substantial bite, deep-dish pizza crusts offer a hearty and satisfying experience. Originating from Chicago, these crusts are thick, buttery, and often pan-baked to create a golden-brown outer layer. The depth of the crust provides ample space for layers of cheese, sauce, and various toppings, making every bite a delicious journey through flavor and texture.
+          3. Pizza de base gruesa: un placer reconfortante
+          Para quienes prefieren un bocado más sustancioso, las masas de pizza de base gruesa ofrecen una experiencia reconfortante y satisfactoria. Originarias de Chicago, estas masas son gruesas, mantecosas y, a menudo, horneadas en sartén para crear una capa exterior de color marrón dorado. La profundidad de la masa proporciona un amplio espacio para capas de queso, salsa y diversos aderezos, lo que convierte cada bocado en un delicioso viaje a través del sabor y la textura.
           
-          4. Stuffed Crust: A Surprise Inside
-          Stuffed crust pizza is a delightful twist on the traditional. Here, the crust is stuffed with cheese or other fillings, transforming the outer edge into a gooey, cheesy surprise. This playful style of pizza crust adds an extra layer of indulgence, ensuring that the last bite is as delicious as the first.
+          4. Masa rellena: una sorpresa en el interior
+          La pizza con masa rellena es una versión deliciosa de la pizza tradicional. En este caso, la masa se rellena con queso u otros ingredientes, lo que transforma el borde exterior en una sorpresa pegajosa y con sabor a queso. Este estilo divertido de masa de pizza agrega una capa adicional de placer, lo que garantiza que el último bocado sea tan delicioso como el primero.
           
-          5. Whole Wheat and Gluten-Free: Catering to Dietary Needs
-          As dietary preferences evolve, so do pizza crust options. Whole wheat and gluten-free crusts cater to those seeking healthier alternatives or with dietary restrictions. Whole wheat crusts offer a nutty flavor and added fiber, while gluten-free crusts, often made from ingredients like rice flour or cauliflower, allow everyone to enjoy the joy of pizza without compromising their dietary needs.
+          5. Masa de pizza integral y sin gluten: satisfaciendo las necesidades dietéticas
+          A medida que evolucionan las preferencias dietéticas, también lo hacen las opciones de masa de pizza. Las masas de pizza integral y sin gluten satisfacen las necesidades de quienes buscan alternativas más saludables o tienen restricciones dietéticas. Las masas de pizza integral ofrecen un sabor a nueces y fibra adicional, mientras que las masas sin gluten, a menudo hechas con ingredientes como harina de arroz o coliflor, permiten que todos disfruten del placer de la pizza sin comprometer sus necesidades dietéticas.
           
-          6. Cauliflower Crust: A Low-Carb Alternative
-          Cauliflower crust pizza has gained popularity among health-conscious individuals seeking a lower-carb option. Made by blending cauliflower with other ingredients, this crust transforms a vegetable into a delicious base for pizza toppings. It offers a unique flavor profile and a guilt-free way to indulge in pizza cravings.
+          6. Masa de coliflor: una alternativa baja en carbohidratos
+          La pizza con masa de coliflor ha ganado popularidad entre las personas preocupadas por su salud y que buscan una opción con menos carbohidratos. Esta masa, que se prepara mezclando coliflor con otros ingredientes, transforma una verdura en una base deliciosa para aderezos de pizza. Ofrece un perfil de sabor único y una forma libre de culpa de satisfacer los antojos de pizza.
           
-          7. Focaccia Style: A Flavorful Twist
-          Drawing inspiration from the Italian flatbread, focaccia-style pizza crusts combine the best of both worlds. These crusts are soft, airy, and infused with olive oil and herbs, delivering a burst of flavor in every bite. Focaccia-style pizza allows for creative topping combinations that complement the rich flavors of the crust.
+          7. Estilo focaccia: un toque sabroso
+          Las bases de pizza estilo focaccia, inspiradas en el pan plano italiano, combinan lo mejor de ambos mundos. Estas bases son suaves, aireadas y están impregnadas de aceite de oliva y hierbas, lo que brinda una explosión de sabor en cada bocado. La pizza estilo focaccia permite combinaciones creativas de ingredientes que complementan los ricos sabores de la base.
           
-          Whether you're a fan of thin and crispy or have a penchant for deep-dish delights, the world of pizza crusts offers a multitude of options to satisfy every palate. From the nostalgic comfort of classic styles to the innovative creations that push culinary boundaries, pizza crusts play a pivotal role in shaping the way we enjoy this beloved dish. So, the next time you order a pizza, take a moment to savor the unique characteristics of the crust – the foundation that brings it all together in a perfect, cheesy harmony.
+          Tanto si te gustan las pizzas finas y crujientes como si prefieres las delicias de base gruesa, el mundo de las masas de pizza ofrece una multitud de opciones para satisfacer todos los paladares. Desde la comodidad nostálgica de los estilos clásicos hasta las creaciones innovadoras que superan los límites culinarios, las masas de pizza desempeñan un papel fundamental en la forma en que disfrutamos de este querido plato. Así que, la próxima vez que pidas una pizza, tómate un momento para saborear las características únicas de la masa, la base que une todo en una perfecta armonía con el queso.
           `,
   },
 
   {
     img: Img2,
-    name: "Different styles of pizza crust for 8 classic pies",
+    name: "Diferentes estilos de masa de pizza para 8 pizzas clasicas",
     intro:
-      "When it comes to pizza, the crust is more than just a vessel for toppings – it's a canvas that can influence the entire dining experience",
+      "Cuando se trata de pizza, la masa es más que un simple recipiente para los ingredientes: es un lienzo que puede influir en toda la experiencia gastronómica.",
     date: "July 1, 2023",
     author: "Anna Anderson",
     id: 2,
-    content: `When it comes to pizza, the crust is more than just a vessel for toppings – it's a canvas that can influence the entire dining experience. From thin and crispy to thick and doughy, pizza crusts come in a variety of types, each with its own unique characteristics and regional influences. Join us as we dive into the delightful world of pizza crusts and explore the different styles that have captured the hearts and taste buds of pizza enthusiasts around the globe.
+    content: `Cuando se trata de pizza, la masa es más que un simple recipiente para los ingredientes: es un lienzo que puede influir en toda la experiencia gastronómica. Desde masas finas y crujientes hasta masas gruesas y pastosas, las masas de pizza vienen en una variedad de tipos, cada una con sus propias características únicas e influencias regionales. Únase a nosotros mientras nos sumergimos en el delicioso mundo de las masas de pizza y exploramos los diferentes estilos que han capturado los corazones y las papilas gustativas de los entusiastas de la pizza en todo el mundo.
     
-        Thin and Crispy: A Classic Delight\n
-        Thin crust pizza is a time-honored favorite, known for its delicate crunch and ability to showcase the flavors of the toppings. This type of crust is rolled out thinly, creating a light and airy base that allows the cheese, sauce, and toppings to shine. Originating from places like New York and Italy, thin crust pizza is perfect for those who crave a balance between the toppings and the crust.\n
+        Delgada y crujiente: una delicia clásica\n
+        La pizza de masa fina es una favorita de toda la vida, conocida por su delicado crujido y su capacidad para resaltar los sabores de los ingredientes. Este tipo de masa se extiende en una capa fina, lo que crea una base liviana y aireada que permite que el queso, la salsa y los ingredientes resalten. Originaria de lugares como Nueva York e Italia, la pizza de masa fina es perfecta para quienes anhelan un equilibrio entre los ingredientes y la masa.\n
         
-        Neapolitan: The Authentic Italian Experience\n
-        Hailing from Naples, Italy, the Neapolitan pizza crust is all about tradition. This crust is thin, soft, and slightly chewy, typically featuring a simple yet flavorful combination of San Marzano tomatoes, mozzarella cheese, fresh basil, and olive oil. Baked in wood-fired ovens at high temperatures, Neapolitan pizza crusts boast those irresistible charred spots that add to their rustic charm.\n
+        Napolitana: la auténtica experiencia italiana\n
+        La masa de pizza napolitana, originaria de Nápoles, Italia, es todo tradición. Esta masa es fina, suave y ligeramente masticable, y normalmente lleva una combinación simple pero sabrosa de tomates San Marzano, queso mozzarella, albahaca fresca y aceite de oliva. Horneadas en hornos de leña a altas temperaturas, las masas de pizza napolitanas cuentan con esos irresistibles puntos carbonizados que le suman su encanto rústico.\n
         
-        Deep-Dish: A Hearty Indulgence\n
-        For those who prefer a more substantial bite, deep-dish pizza crusts offer a hearty and satisfying experience. Originating from Chicago, these crusts are thick, buttery, and often pan-baked to create a golden-brown outer layer. The depth of the crust provides ample space for layers of cheese, sauce, and various toppings, making every bite a delicious journey through flavor and texture.\n
+        Pizza de base gruesa: un placer reconfortante\n
+        Para quienes prefieren un bocado más sustancial, las masas de pizza de base gruesa ofrecen una experiencia reconfortante y satisfactoria. Originarias de Chicago, estas masas son gruesas, mantecosas y, a menudo, horneadas en sartén para crear una capa exterior de color marrón dorado. La profundidad de la masa proporciona un amplio espacio para capas de queso, salsa y diversos aderezos, lo que hace que cada bocado sea un delicioso viaje a través del sabor y la textura.\n
         
-        Stuffed Crust: A Surprise Inside\n
-        Stuffed crust pizza is a delightful twist on the traditional. Here, the crust is stuffed with cheese or other fillings, transforming the outer edge into a gooey, cheesy surprise. This playful style of pizza crust adds an extra layer of indulgence, ensuring that the last bite is as delicious as the first.\n
+        Masa rellena: una sorpresa en el interior\n
+        La pizza con masa rellena es una versión deliciosa de la pizza tradicional. En este caso, la masa se rellena con queso u otros ingredientes, lo que transforma el borde exterior en una sorpresa pegajosa y con sabor a queso. Este estilo divertido de masa de pizza agrega una capa adicional de placer, lo que garantiza que el último bocado sea tan delicioso como el primero.\n
         
-        Whole Wheat and Gluten-Free: Catering to Dietary Needs\n
-        As dietary preferences evolve, so do pizza crust options. Whole wheat and gluten-free crusts cater to those seeking healthier alternatives or with dietary restrictions. Whole wheat crusts offer a nutty flavor and added fiber, while gluten-free crusts, often made from ingredients like rice flour or cauliflower, allow everyone to enjoy the joy of pizza without compromising their dietary needs.\n
+        Masa de pizza integral y sin gluten: satisfaciendo las necesidades dietéticas\n
+        A medida que evolucionan las preferencias dietéticas, también lo hacen las opciones de masa de pizza. Las masas de pizza integral y sin gluten satisfacen las necesidades de quienes buscan alternativas más saludables o tienen restricciones dietéticas. Las masas de pizza integral ofrecen un sabor a nueces y fibra adicional, mientras que las masas sin gluten, a menudo hechas con ingredientes como harina de arroz o coliflor, permiten que todos disfruten del placer de la pizza sin comprometer sus necesidades dietéticas.\n
         
-        Cauliflower Crust: A Low-Carb Alternative\n
-        Cauliflower crust pizza has gained popularity among health-conscious individuals seeking a lower-carb option. Made by blending cauliflower with other ingredients, this crust transforms a vegetable into a delicious base for pizza toppings. It offers a unique flavor profile and a guilt-free way to indulge in pizza cravings.\n
+        Masa de coliflor: una alternativa baja en carbohidratos\n
+        La pizza con masa de coliflor ha ganado popularidad entre las personas preocupadas por su salud que buscan una opción con menos carbohidratos. Esta masa, que se prepara mezclando coliflor con otros ingredientes, transforma una verdura en una base deliciosa para aderezos de pizza. Ofrece un perfil de sabor único y una forma libre de culpa de satisfacer los antojos de pizza.\n
         
-        Focaccia Style: A Flavorful Twist\n
-        Drawing inspiration from the Italian flatbread, focaccia-style pizza crusts combine the best of both worlds. These crusts are soft, airy, and infused with olive oil and herbs, delivering a burst of flavor in every bite. Focaccia-style pizza allows for creative topping combinations that complement the rich flavors of the crust.\n
+        Estilo focaccia: un toque sabroso\n
+        Las bases de pizza estilo focaccia, inspiradas en el pan plano italiano, combinan lo mejor de ambos mundos. Estas bases son suaves, aireadas y están impregnadas con aceite de oliva y hierbas, lo que brinda una explosión de sabor en cada bocado. La pizza estilo focaccia permite combinaciones creativas de ingredientes que complementan los ricos sabores de la base.\n
         
-        Whether you're a fan of thin and crispy or have a penchant for deep-dish delights, the world of pizza crusts offers a multitude of options to satisfy every palate. From the nostalgic comfort of classic styles to the innovative creations that push culinary boundaries, pizza crusts play a pivotal role in shaping the way we enjoy this beloved dish. So, the next time you order a pizza, take a moment to savor the unique characteristics of the crust – the foundation that brings it all together in a perfect, cheesy harmony.`,
+        Tanto si te gustan las pizzas finas y crujientes como si prefieres las delicias de base gruesa, el mundo de las masas de pizza ofrece una multitud de opciones para satisfacer todos los paladares. Desde la comodidad nostálgica de los estilos clásicos hasta las creaciones innovadoras que superan los límites culinarios, las masas de pizza desempeñan un papel fundamental en la forma en que disfrutamos de este querido plato. Así que, la próxima vez que pidas una pizza, tómate un momento para saborear las características únicas de la masa, la base que une todo en una perfecta armonía con el queso.`,
   },
   {
     img: Img3,
-    name: "What to do with leftover pizza dough",
+    name: "Que hacer con la masa de pizza sobrante",
     intro:
-      "Discover the art of repurposing leftover pizza dough with our inventive ideas. From savory bites to sweet delights, your leftover dough has never been this exciting",
+      "Descubra el arte de reutilizar la masa de pizza sobrante con nuestras ideas creativas. Desde bocados salados hasta delicias dulces, la masa sobrante nunca ha sido tan emocionante",
     date: "June 27, 2023",
     author: "Catherine Wright",
     id: 3,
-    content: `Got some leftover pizza dough from your recent pizza-making adventure? Don't let it go to waste! Leftover pizza dough is a versatile ingredient that can be transformed into a variety of delicious creations. Whether you're in the mood for something savory or sweet, we've got you covered with creative ideas to make the most out of that extra dough. Let's dive into the wonderful world of repurposing pizza dough leftovers.
+    content: `Te sobró masa de pizza de tu reciente aventura de hacer pizza? ¡No la desperdicies! La masa de pizza sobrante es un ingrediente versátil que se puede transformar en una variedad de deliciosas creaciones. Ya sea que tengas ganas de algo salado o dulce, te ofrecemos ideas creativas para aprovechar al máximo esa masa adicional. Sumerjámonos en el maravilloso mundo de la reutilización de las sobras de masa de pizza.
     
-        1. Homemade Garlic Knots\n
-        Turn your leftover pizza dough into irresistible garlic knots. Simply roll the dough into small pieces, tie them into knots, and bake them until golden brown. Once out of the oven, brush the knots with a mixture of melted butter, minced garlic, and chopped parsley for a flavorful treat that's perfect as a side dish or snack.\n
+        1. Nudos de ajo caseros\n
+        Convierte la masa de pizza que te sobra en unos irresistibles nudos de ajo. Simplemente, haz un rollo con la masa en trozos pequeños, haz nudos con ellos y hornéalos hasta que estén dorados. Una vez que los saques del horno, pincela los nudos con una mezcla de mantequilla derretida, ajo picado y perejil picado para obtener un sabroso manjar que es perfecto como guarnición o refrigerio.\n
         
-        2. Mini Calzones\n
-        Create mini calzones by filling portions of the leftover dough with your favorite pizza toppings and cheese. Fold the dough over the fillings and seal the edges, then bake until the calzones are golden and the cheese is melted. These handheld delights are great for lunch or as a party appetizer.\n
+        2. Mini calzones\n
+        Crea mini calzones rellenando porciones de la masa sobrante con tus ingredientes de pizza favoritos y queso. Dobla la masa sobre los rellenos y sella los bordes, luego hornea hasta que los calzones estén dorados y el queso se derrita. Estas delicias para llevar son geniales para el almuerzo o como aperitivo para una fiesta.\n
         
-        3. Cinnamon Sugar Pizza Sticks\n
-        Satisfy your sweet tooth with cinnamon sugar pizza sticks. Roll out the dough, brush it with melted butter, and sprinkle a mixture of cinnamon and sugar over the top. Cut the dough into strips and bake until they're crispy and golden. Dip them in a sweet glaze for a delectable dessert.\n
+        3. Palitos de pizza con azúcar y canela\n
+        Satisfaga su gusto por lo dulce con palitos de pizza con azúcar y canela. Extienda la masa, pinceleela con mantequilla derretida y espolvoree una mezcla de canela y azúcar por encima. Corte la masa en tiras y hornéelas hasta que estén crujientes y doradas. Sumérjalas en un glaseado dulce para obtener un postre delicioso.\n
         
-        4. Cheesy Breadsticks\n
-        Transform your leftover dough into cheesy breadsticks that are perfect for dipping. Roll out the dough, top it with a generous layer of shredded cheese, and bake until the cheese is bubbly and the crust is golden. Serve with marinara sauce or a creamy dip for a delightful snack.\n
+        4. Palitos de pan con queso\n
+        Transforma la masa que te sobre en palitos de pan con queso, perfectos para mojar. Extiende la masa, cúbrela con una capa generosa de queso rallado y hornéala hasta que el queso burbujee y la corteza esté dorada. Sírvelos con salsa marinara o una salsa cremosa para un refrigerio delicioso.\n
         
-        5. Savory Pockets\n
-        Get creative by filling portions of the dough with savory fillings like cooked vegetables, meats, and cheeses. Fold the dough over the fillings and bake until the pockets are golden and the fillings are heated through. These pockets make for a satisfying on-the-go meal.\n
+        5. Bolsillos salados\n
+        Sé creativo rellenando porciones de masa con rellenos salados como verduras cocidas, carnes y quesos. Dobla la masa sobre los rellenos y hornea hasta que los bolsillos estén dorados y los rellenos estén bien calientes. Estos bolsillos son una comida para llevar muy satisfactoria.\n
         
-        6. Pretzel Bites\n
-        Give your leftover pizza dough a pretzel twist! Shape the dough into bite-sized pieces, boil them briefly in a baking soda solution, and then bake until they're golden. Sprinkle with coarse salt and serve with mustard or cheese dip.\n
+        6. Bocados de pretzel\n
+        ¡Dale un toque de pretzel a la masa de pizza que te sobra! Forma la masa en trozos del tamaño de un bocado, hiérvelos brevemente en una solución de bicarbonato de sodio y luego hornéalos hasta que estén dorados. Espolvorea con sal gruesa y sirve con mostaza o salsa de queso.\n
         
-        7. Fruit-Filled Pastries\n
-        For a sweet treat, fill portions of the dough with your favorite fruits, such as berries or sliced apples. Fold the dough around the fruit, brush with an egg wash, and bake until the pastries are golden and the fruit is tender. Dust with powdered sugar and enjoy!\n
+        7. Pastelitos rellenos de frutas\n
+        Para un dulce capricho, rellene porciones de masa con sus frutas favoritas, como bayas o manzanas en rodajas. Envuelva la masa alrededor de la fruta, pinte con huevo batido y hornee hasta que los pasteles estén dorados y la fruta tierna. Espolvoree con azúcar en polvo y ¡disfrute!\n
         
-        8. Pizza Scrolls\n
-        Roll out the dough and spread a layer of tomato sauce, cheese, and your preferred pizza toppings. Roll the dough into a log and slice it into rounds. Bake the slices until they're golden and the cheese is melted, creating savory pizza scrolls that are perfect for snacking.\n
+        8. Rollos de pizza\n
+        Estira la masa y extiende una capa de salsa de tomate, queso y los ingredientes de pizza que prefieras. Enrolla la masa en forma de cilindro y córtala en rodajas. Hornea las rodajas hasta que estén doradas y el queso se derrita, creando así unos rollos de pizza sabrosos que son perfectos para picar.\n
         
-        Don't let that extra pizza dough go to waste. With these creative ideas, you can transform your leftover dough into a range of delicious treats, both savory and sweet. Embrace your culinary creativity and enjoy every bite!\n`,
+        No desperdicies la masa de pizza que te sobra. Con estas ideas creativas, puedes transformar la masa que te sobre en una variedad de delicias, tanto saladas como dulces. ¡Da rienda suelta a tu creatividad culinaria y disfruta de cada bocado!`,
   },
 ];
 

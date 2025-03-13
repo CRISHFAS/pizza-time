@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
@@ -19,7 +19,14 @@ const ScrollButton = () => {
     });
   };
 
-  window.addEventListener("scroll", toggleVisible);
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisible);
+
+    // Limpieza para remover el event listener cuando el componente se desmonte
+    return () => {
+      window.removeEventListener("scroll", toggleVisible);
+    };
+  }, []);
 
   return (
     <div

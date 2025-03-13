@@ -45,11 +45,10 @@ const PizzaMenuPreview = () => {
   return (
     <article className="homepage__menu-preview flex-container flex-column">
       <section className="menu-preview__info txt-center">
-        <h2 className="pop-font txt-white">Hot Pizza Meals</h2>
+        <h2 className="pop-font txt-white">Menús calientes</h2>
         <p className="section-description">
-          Pizza Time holds the market of the pizza industry and continuously
-          offers more than pizza. Check out our hottest menu options with
-          cheese, meat, chicken, and veggies!
+        Pizza Time domina el mercado de la pizza y continuamente
+        ofrece más que sólo pizzas. ¡Echa un vistazo a nuestras opciones de menús más populares con queso, carne, pollo y verduras!
         </p>
       </section>
       <section className="menu-preview__meals flex-container flex-column">
@@ -86,7 +85,7 @@ const PizzaMenuPreview = () => {
         onClick={ResetLocation}
         to="/menu"
         className="active-button-style txt-white">
-        More pizza
+        Más pizzas
       </Link>
     </article>
   );

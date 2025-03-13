@@ -6,10 +6,10 @@ import ResetLocation from "../../helpers/ResetLocation";
 const EmptyCart = () => {
   return (
     <React.Fragment>
-      <h3>Oh, no, your cart is empty</h3>
-      <p>Seems like you have not added anything to your cart yet.</p>
+      <h3>Oh, no, tu carrito está vacío</h3>
+      <p>Parece que aún no has añadido nada a tu carrito.</p>
       <Link to="/menu" className="active-button-style" onClick={ResetLocation}>
-        Explore menu
+      Explorar menú
       </Link>
     </React.Fragment>
   );

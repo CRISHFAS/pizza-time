@@ -11,8 +11,8 @@ const NotFound = () => {
                 alt=""
                 aria-hidden="true"
             />
-            <h2>This page is not available</h2>
-            <p>Sorry, we couldn’t find the page you’re looking for.
+            <h2>Esta página no está disponible</h2>
+            <p>Lo sentimos, no pudimos encontrar la página que estás buscando.
             </p>
         </main>
     )

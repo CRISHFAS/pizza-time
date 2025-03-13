@@ -12,7 +12,7 @@ const Checkout = ({ cartItems,
   currentUser }) => {
   return (
     <main className="checkout">
-      <h2>Checkout</h2>
+      <h2>Verificar</h2>
       {cartItems.length === 0 ? (
         <EmptyCart />
       ) : (

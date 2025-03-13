@@ -9,11 +9,11 @@ const footerMenu = [
   },
   {
     to: "/about",
-    label: "About",
+    label: "Acerca de",
   },
   {
     to: "/contact",
-    label: "Contact",
+    label: "Contacto",
   },
 ];
 

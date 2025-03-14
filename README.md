@@ -29,9 +29,6 @@ Se desarrolló un sistema de pedidos basado en Express.js para una gestión flui
 👤 Interacción personalizada con el usuario:
 Registro, inicio de sesión y gestión de perfiles habilitados. Los usuarios modifican y eliminan perfiles, lo que mejora la personalización.
 
-📧 Comunicación segura mediante reCAPTCHA:
-Google reCAPTCHA integrado para verificar a los usuarios del formulario de contacto, lo que reduce el spam y garantiza una comunicación segura.
-
 Pizza Time combina comida deliciosa con tecnología avanzada, creando una experiencia digital intuitiva. Es donde la buena comida se fusiona con la programación, permitiendo a los usuarios disfrutar de una experiencia culinaria cómoda y satisfactoria.
 
 ## Contenido

@@ -4,7 +4,7 @@ Pizza Time: Una deliciosa experiencia en línea con un menú interactivo con una
 
 Versión en vivo:
 
-[Pizza Time](https://pizza-time-with-react.vercel.app/)
+[Pizza Time](https://pizza-time-azure.vercel.app/)
 
 Una plataforma de comercio electrónico diseñada para la industria gastronómica. Lideré el diseño y desarrollo integral, utilizando tecnologías como React Icons, React Router DOM, React Alice Carousel, Leaflet Maps, React Paginate, UUID, React Lazy Load y Framer Motion.
 
